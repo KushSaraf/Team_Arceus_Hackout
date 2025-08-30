@@ -9,6 +9,10 @@ from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 from email.mime.image import MIMEImage
 import os
+from dotenv import load_dotenv
+
+# Load environment variables
+load_dotenv()
 
 
 @dataclass
@@ -394,55 +398,74 @@ class MultiChannelAlertService:
             self.load_default_config()
     
     def load_default_config(self) -> None:
-        """Load default configuration"""
+        """Load default configuration from environment variables"""
+        
+        # Check if we have the required credentials
+        twilio_sid = os.getenv("TWILIO_SID")
+        twilio_token = os.getenv("TWILIO_TOKEN")
+        twilio_from = os.getenv("TWILIO_FROM_NUMBER")
+        
+        smtp_host = os.getenv("SMTP_HOST")
+        smtp_user = os.getenv("SMTP_USER")
+        smtp_pass = os.getenv("SMTP_PASS")
+        
+        # Determine which channels to enable based on available credentials
+        sms_enabled = bool(twilio_sid and twilio_token and twilio_from)
+        email_enabled = bool(smtp_host and smtp_user and smtp_pass)
+        
+        if not sms_enabled:
+            self.logger.warning("SMS/IVR alerts disabled - missing Twilio credentials")
+        if not email_enabled:
+            self.logger.warning("Email alerts disabled - missing SMTP credentials")
+            
         default_config = {
             "channels": {
                 "email": {
                     "name": "Email Alerts",
-                    "enabled": True,
+                    "enabled": email_enabled,
                     "priority_levels": ["ORANGE", "RED"],
                     "config": {
-                        "smtp_server": "smtp.gmail.com",
-                        "smtp_port": 587,
-                        "username": "your_email@gmail.com",
-                        "password": "your_app_password",
-                        "from_email": "alerts@yourdomain.com",
-                        "recipients": ["admin@yourdomain.com"]
+                        "smtp_server": smtp_host or "smtp.gmail.com",
+                        "smtp_port": int(os.getenv("SMTP_PORT", "587")),
+                        "username": smtp_user or "your_email@gmail.com",
+                        "password": smtp_pass or "your_app_password",
+                        "from_email": smtp_user or "alerts@yourdomain.com",
+                        "recipients": [os.getenv("SMTP_USER", "admin@yourdomain.com")]
                     }
                 },
                 "sms": {
                     "name": "SMS Alerts",
-                    "enabled": True,
+                    "enabled": sms_enabled,
                     "priority_levels": ["RED"],
                     "config": {
-                        "account_sid": "your_twilio_account_sid",
-                        "auth_token": "your_twilio_auth_token",
-                        "from_number": "+1234567890",
-                        "recipients": ["+15551234567"]
+                        "account_sid": twilio_sid or "your_twilio_account_sid",
+                        "auth_token": twilio_token or "your_twilio_auth_token",
+                        "from_number": twilio_from or "+1234567890",
+                        "recipients": [os.getenv("TWILIO_TO_NUMBER", "+15551234567")]
                     }
                 },
                 "ivr": {
                     "name": "IVR Voice Calls",
-                    "enabled": True,
+                    "enabled": sms_enabled,  # Same as SMS since it uses Twilio
                     "priority_levels": ["RED"],
                     "config": {
-                        "account_sid": "your_twilio_account_sid",
-                        "auth_token": "your_twilio_auth_token",
-                        "from_number": "+1234567890",
-                        "recipients": ["+15551234567"],
-                        "webhook_url": "https://your-domain.com/webhook",
+                        "account_sid": twilio_sid or "your_twilio_account_sid",
+                        "auth_token": twilio_token or "your_twilio_auth_token",
+                        "from_number": twilio_from or "+1234567890",
+                        "recipients": [os.getenv("TWILIO_TO_NUMBER", "+15551234567")],
+                        "webhook_url": os.getenv("WEBHOOK_URL", "https://your-domain.com/webhook"),
                         "voice": "alice",
                         "language": "en-US"
                     }
                 },
                 "webhook": {
                     "name": "Webhook Integration",
-                    "enabled": False,
+                    "enabled": False,  # Disabled by default for security
                     "priority_levels": ["YELLOW", "ORANGE", "RED"],
                     "config": {
-                        "url": "https://your-webhook-endpoint.com/alerts",
-                        "headers": {"Authorization": "Bearer your_token"},
-                        "timeout": 30
+                        "url": os.getenv("WEBHOOK_URL", "https://your-webhook-endpoint.com/alerts"),
+                        "headers": {"Authorization": f"Bearer {os.getenv('WEBHOOK_TOKEN', 'your_token')}"},
+                        "timeout": int(os.getenv("WEBHOOK_TIMEOUT", "30"))
                     }
                 }
             }

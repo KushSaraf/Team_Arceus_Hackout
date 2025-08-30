@@ -15,11 +15,11 @@ class OilSpillModel:
         self.model = None
         self.data = pd.read_csv(csv_path)
         # make sure artifacts folder exists
-        os.makedirs("artifacts/Oil_Spill", exist_ok=True)
+        os.makedirs("artifacts/oil_spill", exist_ok=True)
 
     def train_model(self):
 
-        self.model = RandomForestClassifier(n_estimators=200, random_state=42)
+        self.model = RandomForestClassifier(n_estimators=300, class_weight="balanced", random_state=42)
 
         # Split features and labels
         X = self.data.drop("target", axis=1)
@@ -42,7 +42,7 @@ class OilSpillModel:
         plt.xlabel("Predicted")
         plt.ylabel("Actual")
         plt.title("Confusion Matrix - Oil Spill Model")
-        plt.savefig("artifacts/Oil_Spill/confusion_matrix.png")
+        plt.savefig("artifacts/oil_spill/confusion_matrix.png")
         plt.close()
 
         # Save metrics as JSON
@@ -53,10 +53,10 @@ class OilSpillModel:
             "f1_score": f1_score(y_test, y_pred),
             "report": classification_report(y_test, y_pred, output_dict=True)
         }
-        with open("artifacts/Oil_Spill/metrics.json", "w") as f:
+        with open("artifacts/oil_spill/metrics.json", "w") as f:
             json.dump(metrics, f, indent=4)
 
-        print("✅ Training done. Artifacts saved in /artifacts/Oil_Spill folder.")
+        print("✅ Training done. Artifacts saved in /artifacts/oil_spill folder.")
 
     def save_model(self, path="models/oil_spill_rf.pkl"):
 

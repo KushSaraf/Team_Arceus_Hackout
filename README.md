@@ -2,6 +2,24 @@
 
 A comprehensive system for detecting and alerting about coastal hazards including oil spills, algal blooms, and coastal erosion using machine learning models and multi-channel alerting.
 
+## 🚀 Quick Start
+
+```bash
+# 1. Install dependencies
+make install
+
+# 2. Train all ML models
+make train
+
+# 3. Start the unified API
+make api
+
+# 4. Test predictions
+curl -X POST http://localhost:8000/predict \
+  -H "Content-Type: application/json" \
+  -d '{"hazard_type": "algal_bloom", "features": {"LATITUDE": 37.7749, "LONGITUDE": -122.4194, "SALINITY": 35.0, "WATER_TEMP": 18.5, "WIND_SPEED": 12.0, "Month": 8}}'
+```
+
 ## 🚀 Features
 
 ### Core Services
@@ -54,16 +72,49 @@ A comprehensive system for detecting and alerting about coastal hazards includin
 2. **Install dependencies**
    ```bash
    pip install -r requirements.txt
+   # Or use the Makefile
+   make install
    ```
 
 3. **Train the models** (if not already trained)
    ```bash
+   # Train all models
+   make train
+   
+   # Or train individually
+   make train-oil
+   make train-algal
+   make train-erosion
+   
+   # Or manually
    python oil_spill_train.py
    python algal_blooms_train.py
    python coastal_erosion_train.py
    ```
 
 ## 🔧 Configuration
+
+### Environment Setup
+
+Copy the example environment file and configure your credentials:
+
+```bash
+# Copy the example file
+cp env.example .env
+
+# Edit with your actual credentials
+nano .env
+```
+
+Required environment variables:
+- `TWILIO_SID`: Your Twilio Account SID
+- `TWILIO_TOKEN`: Your Twilio Auth Token  
+- `TWILIO_FROM_NUMBER`: Your Twilio phone number
+- `SMTP_HOST`: SMTP server (e.g., smtp.gmail.com)
+- `SMTP_USER`: Your email username
+- `SMTP_PASS`: Your email app password
+
+**Note**: If credentials are missing, the system will gracefully disable those alert channels and log warnings.
 
 ### Multi-Channel Alert Service
 
@@ -115,6 +166,131 @@ Create a configuration file `alerts_config.json`:
 ```
 
 ## 🚀 Usage
+
+### Unified ML API
+
+The system now includes a unified API (`api.py`) that provides a single endpoint for all ML predictions:
+
+```bash
+# Start the API server
+python api.py
+```
+
+#### API Endpoints
+
+**Health Check**
+```bash
+GET /health
+```
+Returns system status and loaded models.
+
+**Make Predictions**
+```bash
+POST /predict
+Content-Type: application/json
+
+{
+  "hazard_type": "algal_bloom",
+  "features": {
+    "LATITUDE": 37.7749,
+    "LONGITUDE": -122.4194,
+    "SALINITY": 35.0,
+    "WATER_TEMP": 18.5,
+    "WIND_SPEED": 12.0,
+    "Month": 8
+  }
+}
+```
+
+**List Available Models**
+```bash
+GET /models
+```
+Returns information about all available models and their status.
+
+**Get Required Features**
+```bash
+GET /features/algal_bloom
+```
+Returns the required features for a specific hazard type.
+
+#### Sample API Requests
+
+**Oil Spill Detection**
+```bash
+curl -X POST http://localhost:8000/predict \
+  -H "Content-Type: application/json" \
+  -d '{
+    "hazard_type": "oil_spill",
+    "features": {
+      "f_1": 0.5,
+      "f_2": 0.3,
+      "f_3": 0.8,
+      "f_4": 0.2,
+      "f_5": 0.6
+    }
+  }'
+```
+
+**Algal Bloom Detection**
+```bash
+curl -X POST http://localhost:8000/predict \
+  -H "Content-Type: application/json" \
+  -d '{
+    "hazard_type": "algal_bloom",
+    "features": {
+      "LATITUDE": 37.7749,
+      "LONGITUDE": -122.4194,
+      "SALINITY": 35.0,
+      "WATER_TEMP": 18.5,
+      "WIND_SPEED": 12.0,
+      "Month": 8
+    }
+  }'
+```
+
+**Coastal Erosion Prediction**
+```bash
+curl -X POST http://localhost:8000/predict \
+  -H "Content-Type: application/json" \
+  -d '{
+    "hazard_type": "coastal_erosion",
+    "features": {
+      "Category_o": 1,
+      "Nature_of_": 2,
+      "Status": 1,
+      "Water_Leve": 3,
+      "Scale_Mini": 0.5,
+      "SHAPE_Leng": 150.0
+    }
+  }'
+```
+
+#### Expected Responses
+
+**Successful Prediction**
+```json
+{
+  "hazard_type": "algal_bloom",
+  "prediction": 1,
+  "probability": 0.85,
+  "features_used": ["LATITUDE", "LONGITUDE", "SALINITY", "WATER_TEMP", "WIND_SPEED", "Month"],
+  "timestamp": "2024-01-15T10:30:00",
+  "model_info": {
+    "type": "RandomForestClassifier",
+    "features_count": 6
+  }
+}
+```
+
+**Error Response**
+```json
+{
+  "error": "missing features: ['LATITUDE', 'SALINITY']",
+  "required": ["LATITUDE", "LONGITUDE", "SALINITY", "WATER_TEMP", "WIND_SPEED", "Month"],
+  "received": ["LONGITUDE", "WATER_TEMP", "WIND_SPEED", "Month"]
+}
+```
 
 ### Flask Application
 
@@ -258,6 +434,7 @@ coastal-hazard-detection/
 ## ⚠️ Current Limitations & Known Issues
 
 ### 🔴 **Critical Issues**
+- **Synthetic Training Data**: The coastal erosion model uses synthetic target variables created from existing features. This is acceptable for demonstration purposes but should not be used in production without real erosion measurements.
 - **Model Accuracy**: Current ML models are basic Random Forest implementations and may need retraining with more data
 - **Feature Extraction**: Image feature extraction is simplified and may not capture all relevant patterns
 - **Error Handling**: Limited error handling for edge cases and network failures
@@ -414,6 +591,53 @@ python multi_channel_alerts.py
 ```bash
 # Enable debug logging
 export LOG_LEVEL=DEBUG
+python test_integration.py
+```
+
+## 🎯 Judge-Proof Demo Flow
+
+For hackathon judges and demonstrations, follow this sequence:
+
+### 1. **Show Training Results**
+```bash
+# Display confusion matrices and metrics
+ls -la artifacts/*/
+cat artifacts/algal_blooms/metrics.json
+cat artifacts/oil_spill/metrics.json
+```
+
+### 2. **Live API Demo**
+```bash
+# Start the API
+make api
+
+# In another terminal, test predictions
+curl -X POST http://localhost:8000/predict \
+  -H "Content-Type: application/json" \
+  -d '{"hazard_type": "algal_bloom", "features": {"LATITUDE": 37.7749, "LONGITUDE": -122.4194, "SALINITY": 35.0, "WATER_TEMP": 18.5, "WIND_SPEED": 12.0, "Month": 8}}'
+```
+
+### 3. **Alert System Demo**
+```bash
+# Test alert generation (will show "would send" if no credentials)
+python -c "
+from multi_channel_alerts import MultiChannelAlertService
+service = MultiChannelAlertService()
+result = service.send_alert('RED', 'oil_spill', 'San Francisco Bay', 'Large oil slick detected', 0.95)
+print('Alert results:', result)
+"
+```
+
+### 4. **Tide Monitoring**
+```bash
+# Show tide API functionality
+python tide_api.py
+# Visit http://localhost:5000 in browser
+```
+
+### 5. **Integration Test**
+```bash
+# Run the full pipeline test
 python test_integration.py
 ```
 

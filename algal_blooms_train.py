@@ -16,7 +16,7 @@ class AlgalBloomsModel:
         self.data = pd.read_csv(csv_path, low_memory=False)
 
         # make sure artifacts folder exists
-        os.makedirs("artifacts/Algal_Blooms", exist_ok=True)
+        os.makedirs("artifacts/algal_blooms", exist_ok=True)
 
         self.clean_and_extract_features()
 
@@ -42,7 +42,7 @@ class AlgalBloomsModel:
         X = self.data[features]
         y = self.data["Bloom"]
 
-        self.model = RandomForestClassifier(n_estimators=200, random_state=42)
+        self.model = RandomForestClassifier(n_estimators=300, class_weight="balanced", random_state=42)
 
         # Train-test split
         X_train, X_test, y_train, y_test = train_test_split(
@@ -63,7 +63,7 @@ class AlgalBloomsModel:
         plt.xlabel("Predicted")
         plt.ylabel("Actual")
         plt.title("Confusion Matrix - Algal Bloom Model")
-        plt.savefig("artifacts/Algal_Blooms/confusion_matrix.png")
+        plt.savefig("artifacts/algal_blooms/confusion_matrix.png")
         plt.close()
 
         # Save metrics as JSON
@@ -74,10 +74,10 @@ class AlgalBloomsModel:
             "f1_score": f1_score(y_test, y_pred),
             "report": classification_report(y_test, y_pred, output_dict=True)
         }
-        with open("artifacts/Algal_Blooms/metrics.json", "w") as f:
+        with open("artifacts/algal_blooms/metrics.json", "w") as f:
             json.dump(metrics, f, indent=4)
 
-        print("✅ Training done. Artifacts saved in /artifacts/Algal_Blooms folder.")
+        print("✅ Training done. Artifacts saved in /artifacts/algal_blooms folder.")
 
     def save_model(self, path="models/algal_bloom_rf.pkl"):
         os.makedirs("models", exist_ok=True)

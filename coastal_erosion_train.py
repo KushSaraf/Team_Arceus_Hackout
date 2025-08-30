@@ -16,7 +16,7 @@ class CoastalErosionModel:
         self.data = pd.read_csv(csv_path, low_memory=False)
 
         # make sure artifacts folder exists
-        os.makedirs("artifacts/Coastal_Erosion", exist_ok=True)
+        os.makedirs("artifacts/coastal_erosion", exist_ok=True)
 
         self.clean_and_extract_features()
 
@@ -59,7 +59,7 @@ class CoastalErosionModel:
         plt.xlabel("Actual Erosion Change")
         plt.ylabel("Predicted Erosion Change")
         plt.title("Predicted vs Actual - Coastal Erosion")
-        plt.savefig("artifacts/Coastal_Erosion/predicted_vs_actual.png")
+        plt.savefig("artifacts/coastal_erosion/predicted_vs_actual.png")
         plt.close()
 
         # Save metrics as JSON
@@ -67,10 +67,10 @@ class CoastalErosionModel:
             "mse": mean_squared_error(y_test, y_pred),
             "r2_score": r2_score(y_test, y_pred)
         }
-        with open("artifacts/Coastal_Erosion/metrics.json", "w") as f:
+        with open("artifacts/coastal_erosion/metrics.json", "w") as f:
             json.dump(metrics, f, indent=4)
 
-        print("✅ Training done. Artifacts saved in /artifacts/Coastal_Erosion folder.")
+        print("✅ Training done. Artifacts saved in /artifacts/coastal_erosion folder.")
 
     def save_model(self, path="models/coastal_erosion_rf.pkl"):
         os.makedirs("models", exist_ok=True)
