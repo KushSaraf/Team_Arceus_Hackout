@@ -1,0 +1,466 @@
+{
+  "service_info": {
+    "name": "Tide Monitoring Service",
+    "version": "1.0.0",
+    "location": "South Van Ness Avenue, Hayes Valley, San Francisco, California, 94103, United States",
+    "coordinates": {
+      "latitude": 37.7749,
+      "longitude": -122.4194
+    }
+  },
+  "current_status": {
+    "timestamp": "2025-08-30T21:15:45.580606",
+    "location": {
+      "name": "South Van Ness Avenue, Hayes Valley, San Francisco, California, 94103, United States",
+      "latitude": 37.7749,
+      "longitude": -122.4194
+    },
+    "current_tide": {
+      "height_meters": 1.759284508401646,
+      "type": "falling",
+      "trend": "rising",
+      "next_change": {
+        "type": "rising",
+        "timestamp": "2025-08-31T00:15:45.572091",
+        "height": 1.7193749308427893,
+        "time_until": 2.9999975511111114
+      }
+    },
+    "risk_assessment": {
+      "level": "LOW",
+      "score": 2,
+      "factors": [
+        "Moderate winds"
+      ],
+      "recommendations": [
+        "Normal coastal activities",
+        "Regular monitoring recommended"
+      ]
+    },
+    "active_alerts": 0,
+    "weather": {
+      "condition": "cloudy",
+      "temperature": "12.0\u00b0C",
+      "wind_speed": "10.9 m/s",
+      "humidity": "61%"
+    },
+    "hindu_calendar": {
+      "tithi": "Amavasya",
+      "nakshatra": "Krittika",
+      "paksha": "Krishna",
+      "lunar_day": 30
+    }
+  },
+  "forecast": {
+    "location": {
+      "name": "South Van Ness Avenue, Hayes Valley, San Francisco, California, 94103, United States",
+      "latitude": 37.7749,
+      "longitude": -122.4194
+    },
+    "forecast_period": "7 days",
+    "generated_at": "2025-08-30T21:15:45.581458",
+    "daily_summaries": [
+      {
+        "date": "2025-08-30",
+        "max_height": 1.9868969350904364,
+        "min_height": 1.7507113042273756,
+        "avg_height": 1.8322975825731527,
+        "high_tide_count": 0,
+        "low_tide_count": 0,
+        "hindu_date": {
+          "tithi": "Amavasya",
+          "nakshatra": "Krittika",
+          "paksha": "Krishna",
+          "lunar_day": 30
+        },
+        "weather_summary": {
+          "primary_condition": "rainy",
+          "avg_temperature": 14.5,
+          "max_wind_speed": 11.0
+        }
+      },
+      {
+        "date": "2025-08-31",
+        "max_height": 2.2982704226457953,
+        "min_height": 1.002544316924249,
+        "avg_height": 1.6588125851303823,
+        "high_tide_count": 8,
+        "low_tide_count": 0,
+        "hindu_date": {
+          "tithi": "Pratipada",
+          "nakshatra": "Rohini",
+          "paksha": "Shukla",
+          "lunar_day": 1
+        },
+        "weather_summary": {
+          "primary_condition": "rainy",
+          "avg_temperature": 19.704166666666666,
+          "max_wind_speed": 14.5
+        }
+      },
+      {
+        "date": "2025-09-01",
+        "max_height": 2.6980014997340476,
+        "min_height": 1.202598376686205,
+        "avg_height": 1.95997999061968,
+        "high_tide_count": 12,
+        "low_tide_count": 0,
+        "hindu_date": {
+          "tithi": "Pratipada",
+          "nakshatra": "Ashwini",
+          "paksha": "Shukla",
+          "lunar_day": 1
+        },
+        "weather_summary": {
+          "primary_condition": "cloudy",
+          "avg_temperature": 19.266666666666666,
+          "max_wind_speed": 14.5
+        }
+      },
+      {
+        "date": "2025-09-02",
+        "max_height": 2.2982704226457953,
+        "min_height": 1.002544316924249,
+        "avg_height": 1.6588125851303823,
+        "high_tide_count": 8,
+        "low_tide_count": 0,
+        "hindu_date": {
+          "tithi": "Dwitiya",
+          "nakshatra": "Bharani",
+          "paksha": "Shukla",
+          "lunar_day": 2
+        },
+        "weather_summary": {
+          "primary_condition": "cloudy",
+          "avg_temperature": 19.966666666666665,
+          "max_wind_speed": 14.6
+        }
+      },
+      {
+        "date": "2025-09-03",
+        "max_height": 2.6980014997340476,
+        "min_height": 1.202598376686205,
+        "avg_height": 1.95997999061968,
+        "high_tide_count": 12,
+        "low_tide_count": 0,
+        "hindu_date": {
+          "tithi": "Tritiya",
+          "nakshatra": "Krittika",
+          "paksha": "Shukla",
+          "lunar_day": 3
+        },
+        "weather_summary": {
+          "primary_condition": "cloudy",
+          "avg_temperature": 19.758333333333333,
+          "max_wind_speed": 14.8
+        }
+      },
+      {
+        "date": "2025-09-04",
+        "max_height": 2.2982704226457953,
+        "min_height": 1.002544316924249,
+        "avg_height": 1.6588125851303823,
+        "high_tide_count": 8,
+        "low_tide_count": 0,
+        "hindu_date": {
+          "tithi": "Chaturthi",
+          "nakshatra": "Rohini",
+          "paksha": "Shukla",
+          "lunar_day": 4
+        },
+        "weather_summary": {
+          "primary_condition": "rainy",
+          "avg_temperature": 19.675,
+          "max_wind_speed": 13.7
+        }
+      },
+      {
+        "date": "2025-09-05",
+        "max_height": 1.8985393455575423,
+        "min_height": 0.8024902571622927,
+        "avg_height": 1.3576451796410842,
+        "high_tide_count": 0,
+        "low_tide_count": 7,
+        "hindu_date": {
+          "tithi": "Panchami",
+          "nakshatra": "Mrigashira",
+          "paksha": "Shukla",
+          "lunar_day": 5
+        },
+        "weather_summary": {
+          "primary_condition": "rainy",
+          "avg_temperature": 20.716666666666665,
+          "max_wind_speed": 14.3
+        }
+      },
+      {
+        "date": "2025-09-06",
+        "max_height": 2.6980014997340476,
+        "min_height": 1.202598376686205,
+        "avg_height": 2.0567564783248375,
+        "high_tide_count": 12,
+        "low_tide_count": 0,
+        "hindu_date": {
+          "tithi": "Shashthi",
+          "nakshatra": "Ardra",
+          "paksha": "Shukla",
+          "lunar_day": 6
+        },
+        "weather_summary": {
+          "primary_condition": "clear",
+          "avg_temperature": 20.576190476190476,
+          "max_wind_speed": 14.9
+        }
+      }
+    ],
+    "high_low_tides": [
+      {
+        "timestamp": "2025-08-31T01:15:45.572091",
+        "type": "high",
+        "height_meters": 2.023022603038422,
+        "hindu_factors": {
+          "tithi": "Pratipada",
+          "nakshatra": "Rohini",
+          "paksha": "Shukla",
+          "lunar_day": 1
+        }
+      },
+      {
+        "timestamp": "2025-08-31T02:15:45.572091",
+        "type": "high",
+        "height_meters": 2.2334947139063988,
+        "hindu_factors": {
+          "tithi": "Pratipada",
+          "nakshatra": "Rohini",
+          "paksha": "Shukla",
+          "lunar_day": 1
+        }
+      },
+      {
+        "timestamp": "2025-08-31T03:15:45.572091",
+        "type": "high",
+        "height_meters": 2.2982704226457953,
+        "hindu_factors": {
+          "tithi": "Pratipada",
+          "nakshatra": "Rohini",
+          "paksha": "Shukla",
+          "lunar_day": 1
+        }
+      },
+      {
+        "timestamp": "2025-08-31T04:15:45.572091",
+        "type": "high",
+        "height_meters": 2.20121104745455,
+        "hindu_factors": {
+          "tithi": "Pratipada",
+          "nakshatra": "Rohini",
+          "paksha": "Shukla",
+          "lunar_day": 1
+        }
+      },
+      {
+        "timestamp": "2025-08-31T14:15:45.572091",
+        "type": "high",
+        "height_meters": 2.1551992382320915,
+        "hindu_factors": {
+          "tithi": "Pratipada",
+          "nakshatra": "Rohini",
+          "paksha": "Shukla",
+          "lunar_day": 1
+        }
+      },
+      {
+        "timestamp": "2025-08-31T15:15:45.572091",
+        "type": "high",
+        "height_meters": 2.2884860894368297,
+        "hindu_factors": {
+          "tithi": "Pratipada",
+          "nakshatra": "Rohini",
+          "paksha": "Shukla",
+          "lunar_day": 1
+        }
+      },
+      {
+        "timestamp": "2025-08-31T16:15:45.572091",
+        "type": "high",
+        "height_meters": 2.2623551865004305,
+        "hindu_factors": {
+          "tithi": "Pratipada",
+          "nakshatra": "Rohini",
+          "paksha": "Shukla",
+          "lunar_day": 1
+        }
+      },
+      {
+        "timestamp": "2025-08-31T17:15:45.572091",
+        "type": "high",
+        "height_meters": 2.0833818965899455,
+        "hindu_factors": {
+          "tithi": "Pratipada",
+          "nakshatra": "Rohini",
+          "paksha": "Shukla",
+          "lunar_day": 1
+        }
+      },
+      {
+        "timestamp": "2025-09-01T00:15:45.572091",
+        "type": "high",
+        "height_meters": 2.0319885546323873,
+        "hindu_factors": {
+          "tithi": "Pratipada",
+          "nakshatra": "Ashwini",
+          "paksha": "Shukla",
+          "lunar_day": 1
+        }
+      },
+      {
+        "timestamp": "2025-09-01T01:15:45.572091",
+        "type": "high",
+        "height_meters": 2.382128066525331,
+        "hindu_factors": {
+          "tithi": "Pratipada",
+          "nakshatra": "Ashwini",
+          "paksha": "Shukla",
+          "lunar_day": 1
+        }
+      },
+      {
+        "timestamp": "2025-09-01T02:15:45.572091",
+        "type": "high",
+        "height_meters": 2.6242851894383277,
+        "hindu_factors": {
+          "tithi": "Pratipada",
+          "nakshatra": "Ashwini",
+          "paksha": "Shukla",
+          "lunar_day": 1
+        }
+      },
+      {
+        "timestamp": "2025-09-01T03:15:45.572091",
+        "type": "high",
+        "height_meters": 2.6980014997340476,
+        "hindu_factors": {
+          "tithi": "Pratipada",
+          "nakshatra": "Ashwini",
+          "paksha": "Shukla",
+          "lunar_day": 1
+        }
+      },
+      {
+        "timestamp": "2025-09-01T04:15:45.572091",
+        "type": "high",
+        "height_meters": 2.5848985574130916,
+        "hindu_factors": {
+          "tithi": "Pratipada",
+          "nakshatra": "Ashwini",
+          "paksha": "Shukla",
+          "lunar_day": 1
+        }
+      },
+      {
+        "timestamp": "2025-09-01T05:15:45.572091",
+        "type": "high",
+        "height_meters": 2.313260288404919,
+        "hindu_factors": {
+          "tithi": "Pratipada",
+          "nakshatra": "Ashwini",
+          "paksha": "Shukla",
+          "lunar_day": 1
+        }
+      },
+      {
+        "timestamp": "2025-09-01T13:15:45.572091",
+        "type": "high",
+        "height_meters": 2.236491483959839,
+        "hindu_factors": {
+          "tithi": "Pratipada",
+          "nakshatra": "Ashwini",
+          "paksha": "Shukla",
+          "lunar_day": 1
+        }
+      },
+      {
+        "timestamp": "2025-09-01T14:15:45.572091",
+        "type": "high",
+        "height_meters": 2.5351084342975847,
+        "hindu_factors": {
+          "tithi": "Pratipada",
+          "nakshatra": "Ashwini",
+          "paksha": "Shukla",
+          "lunar_day": 1
+        }
+      },
+      {
+        "timestamp": "2025-09-01T15:15:45.572091",
+        "type": "high",
+        "height_meters": 2.687519924302167,
+        "hindu_factors": {
+          "tithi": "Pratipada",
+          "nakshatra": "Ashwini",
+          "paksha": "Shukla",
+          "lunar_day": 1
+        }
+      },
+      {
+        "timestamp": "2025-09-01T16:15:45.572091",
+        "type": "high",
+        "height_meters": 2.6557041613800836,
+        "hindu_factors": {
+          "tithi": "Pratipada",
+          "nakshatra": "Ashwini",
+          "paksha": "Shukla",
+          "lunar_day": 1
+        }
+      },
+      {
+        "timestamp": "2025-09-01T17:15:45.572091",
+        "type": "high",
+        "height_meters": 2.4476606575585995,
+        "hindu_factors": {
+          "tithi": "Pratipada",
+          "nakshatra": "Ashwini",
+          "paksha": "Shukla",
+          "lunar_day": 1
+        }
+      },
+      {
+        "timestamp": "2025-09-01T18:15:45.572091",
+        "type": "high",
+        "height_meters": 2.115399085855972,
+        "hindu_factors": {
+          "tithi": "Pratipada",
+          "nakshatra": "Ashwini",
+          "paksha": "Shukla",
+          "lunar_day": 1
+        }
+      }
+    ],
+    "hindu_calendar_info": {
+      "unique_nakshatras": [
+        "Bharani",
+        "Mrigashira",
+        "Krittika",
+        "Ashwini",
+        "Ardra",
+        "Rohini"
+      ],
+      "unique_tithis": [
+        "Chaturthi",
+        "Dwitiya",
+        "Tritiya",
+        "Amavasya",
+        "Shashthi",
+        "Panchami",
+        "Pratipada"
+      ],
+      "paksha_transitions": 7
+    },
+    "weather_summary": {
+      "most_common_condition": "rainy",
+      "max_wind_speed": 14.9,
+      "stormy_periods": 0
+    }
+  },
+  "active_alerts": [],
+  "exported_at": "2025-08-30T21:15:45.581651"
+}

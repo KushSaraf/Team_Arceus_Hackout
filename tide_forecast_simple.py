@@ -312,7 +312,7 @@ class TidePredictor:
             # Categorize risk
             if risk_score >= 5:
                 high_risk.append({
-                    'timestamp': pred.timestamp,
+                    'timestamp': pred.timestamp.isoformat(),
                     'risk_score': risk_score,
                     'tide_height': pred.height_meters,
                     'tide_type': pred.tide_type,
@@ -321,7 +321,7 @@ class TidePredictor:
                 })
             elif risk_score >= 3:
                 moderate_risk.append({
-                    'timestamp': pred.timestamp,
+                    'timestamp': pred.timestamp.isoformat(),
                     'risk_score': risk_score,
                     'tide_height': pred.height_meters,
                     'tide_type': pred.tide_type,
@@ -338,9 +338,25 @@ class TidePredictor:
         }
 
 
+def serialize_predictions(predictions: List[TidePrediction]) -> List[Dict]:
+    """Helper function to convert TidePrediction objects to serializable dicts."""
+    serializable_predictions = []
+    for pred in predictions:
+        serializable_pred = {
+            'timestamp': pred.timestamp.isoformat(),
+            'height_meters': pred.height_meters,
+            'tide_type': pred.tide_type,
+            'confidence': pred.confidence,
+            'hindu_factors': pred.hindu_factors,
+            'weather_info': pred.weather_info
+        }
+        serializable_predictions.append(serializable_pred)
+    return serializable_predictions
+
+
 def main():
     """Main function for testing and demonstration"""
-    print("🌊 Tide and Weather Forecasting System with Hindu Calendar")
+    print("Tide and Weather Forecasting System with Hindu Calendar")
     print("=" * 60)
     
     # Initialize predictor for San Francisco Bay Area
@@ -348,15 +364,15 @@ def main():
     
     # Predict tides for next 7 days
     start_date = datetime.now()
-    print(f"\n📅 Predicting tides from {start_date.strftime('%Y-%m-%d %H:%M')}")
+    print(f"\nPredicting tides from {start_date.strftime('%Y-%m-%d %H:%M')}")
     
     predictions = predictor.predict_tides(start_date, days=7)
     
     if predictions:
-        print(f"✅ Generated {len(predictions)} tide predictions")
+        print(f"Generated {len(predictions)} tide predictions")
         
         # Show next 24 hours
-        print(f"\n🌊 Next 24 Hours Tide Predictions:")
+        print(f"\nNext 24 Hours Tide Predictions:")
         print("-" * 90)
         print(f"{'Time':<20} {'Height':<8} {'Type':<10} {'Nakshatra':<15} {'Tithi':<15} {'Weather':<15}")
         print("-" * 90)
@@ -370,7 +386,7 @@ def main():
                   f"{pred.weather_info['condition']:<15}")
         
         # Show Hindu calendar influence
-        print(f"\n🕉️ Hindu Calendar Tide Influence:")
+        print(f"\nHindu Calendar Tide Influence:")
         print("-" * 50)
         first_pred = predictions[0]
         hindu_date = first_pred.hindu_factors
@@ -389,7 +405,7 @@ def main():
         print(f"Recommendation: {tide_influence['recommendation']}")
         
         # Hazard assessment
-        print(f"\n🚨 Coastal Hazard Assessment:")
+        print(f"\nCoastal Hazard Assessment:")
         print("-" * 50)
         hazards = predictor.get_hazard_assessment(predictions)
         
@@ -398,26 +414,15 @@ def main():
         print(f"Moderate Risk Periods: {hazards['moderate_risk_count']}")
         
         if hazards['high_risk_periods']:
-            print(f"\n⚠️ High Risk Periods:")
+            print(f"\nHigh Risk Periods:")
             for period in hazards['high_risk_periods'][:3]:
-                print(f"  {period['timestamp'].strftime('%m-%d %H:%M')} "
-                      f"(Risk Score: {period['risk_score']})")
+                print(f"  {period['timestamp'][:16]} (Risk Score: {period['risk_score']})")
         
         # Save predictions
         output_file = "tide_predictions.json"
         try:
             # Convert to serializable format
-            serializable_predictions = []
-            for pred in predictions:
-                serializable_pred = {
-                    'timestamp': pred.timestamp.isoformat(),
-                    'height_meters': pred.height_meters,
-                    'tide_type': pred.tide_type,
-                    'confidence': pred.confidence,
-                    'hindu_factors': pred.hindu_factors,
-                    'weather_info': pred.weather_info
-                }
-                serializable_predictions.append(serializable_pred)
+            serializable_predictions = serialize_predictions(predictions)
             
             with open(output_file, 'w') as f:
                 json.dump({
@@ -426,13 +431,13 @@ def main():
                     'hazards': hazards
                 }, f, indent=2)
             
-            print(f"\n💾 Predictions saved to {output_file}")
+            print(f"\nPredictions saved to {output_file}")
             
         except Exception as e:
-            print(f"❌ Error saving predictions: {e}")
+            print(f"Error saving predictions: {e}")
     
     else:
-        print("❌ Failed to generate tide predictions")
+        print("Failed to generate tide predictions")
 
 
 if __name__ == "__main__":
