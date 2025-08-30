@@ -1,0 +1,3037 @@
+{
+  "location": {
+    "latitude": 37.7749,
+    "longitude": -122.4194
+  },
+  "predictions": [
+    {
+      "timestamp": "2025-08-30T16:58:49.957759",
+      "height_meters": 3.507451934828013,
+      "tide_type": "high",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Amavasya",
+        "nakshatra": "Krittika",
+        "paksha": "Krishna",
+        "lunar_day": 30
+      },
+      "weather_info": {
+        "condition": "cloudy",
+        "temperature": "12.2\u00b0C",
+        "wind_speed": "5.0 m/s",
+        "humidity": "78%"
+      }
+    },
+    {
+      "timestamp": "2025-08-30T17:58:49.957759",
+      "height_meters": 3.109523097931771,
+      "tide_type": "high",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Amavasya",
+        "nakshatra": "Krittika",
+        "paksha": "Krishna",
+        "lunar_day": 30
+      },
+      "weather_info": {
+        "condition": "rainy",
+        "temperature": "10.0\u00b0C",
+        "wind_speed": "3.7 m/s",
+        "humidity": "66%"
+      }
+    },
+    {
+      "timestamp": "2025-08-30T18:58:49.957759",
+      "height_meters": 2.616971468810149,
+      "tide_type": "high",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Amavasya",
+        "nakshatra": "Krittika",
+        "paksha": "Krishna",
+        "lunar_day": 30
+      },
+      "weather_info": {
+        "condition": "rainy",
+        "temperature": "9.9\u00b0C",
+        "wind_speed": "1.9 m/s",
+        "humidity": "50%"
+      }
+    },
+    {
+      "timestamp": "2025-08-30T19:58:49.957759",
+      "height_meters": 2.152969329209473,
+      "tide_type": "high",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Amavasya",
+        "nakshatra": "Krittika",
+        "paksha": "Krishna",
+        "lunar_day": 30
+      },
+      "weather_info": {
+        "condition": "clear",
+        "temperature": "8.2\u00b0C",
+        "wind_speed": "5.7 m/s",
+        "humidity": "58%"
+      }
+    },
+    {
+      "timestamp": "2025-08-30T20:58:49.957759",
+      "height_meters": 1.8334795578166008,
+      "tide_type": "rising",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Amavasya",
+        "nakshatra": "Krittika",
+        "paksha": "Krishna",
+        "lunar_day": 30
+      },
+      "weather_info": {
+        "condition": "rainy",
+        "temperature": "13.4\u00b0C",
+        "wind_speed": "11.6 m/s",
+        "humidity": "42%"
+      }
+    },
+    {
+      "timestamp": "2025-08-30T21:58:49.957759",
+      "height_meters": 1.7382729143741278,
+      "tide_type": "falling",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Amavasya",
+        "nakshatra": "Krittika",
+        "paksha": "Krishna",
+        "lunar_day": 30
+      },
+      "weather_info": {
+        "condition": "clear",
+        "temperature": "14.3\u00b0C",
+        "wind_speed": "9.8 m/s",
+        "humidity": "69%"
+      }
+    },
+    {
+      "timestamp": "2025-08-30T22:58:49.957759",
+      "height_meters": 1.8910094472383334,
+      "tide_type": "falling",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Amavasya",
+        "nakshatra": "Krittika",
+        "paksha": "Krishna",
+        "lunar_day": 30
+      },
+      "weather_info": {
+        "condition": "cloudy",
+        "temperature": "14.8\u00b0C",
+        "wind_speed": "14.6 m/s",
+        "humidity": "48%"
+      }
+    },
+    {
+      "timestamp": "2025-08-30T23:58:49.957759",
+      "height_meters": 2.2533579725140642,
+      "tide_type": "high",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Amavasya",
+        "nakshatra": "Krittika",
+        "paksha": "Krishna",
+        "lunar_day": 30
+      },
+      "weather_info": {
+        "condition": "clear",
+        "temperature": "18.4\u00b0C",
+        "wind_speed": "14.4 m/s",
+        "humidity": "44%"
+      }
+    },
+    {
+      "timestamp": "2025-08-31T00:58:49.957759",
+      "height_meters": 1.9083731262631936,
+      "tide_type": "rising",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Pratipada",
+        "nakshatra": "Rohini",
+        "paksha": "Shukla",
+        "lunar_day": 1
+      },
+      "weather_info": {
+        "condition": "cloudy",
+        "temperature": "20.8\u00b0C",
+        "wind_speed": "9.0 m/s",
+        "humidity": "78%"
+      }
+    },
+    {
+      "timestamp": "2025-08-31T01:58:49.957759",
+      "height_meters": 2.159236621399554,
+      "tide_type": "high",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Pratipada",
+        "nakshatra": "Rohini",
+        "paksha": "Shukla",
+        "lunar_day": 1
+      },
+      "weather_info": {
+        "condition": "cloudy",
+        "temperature": "20.7\u00b0C",
+        "wind_speed": "13.1 m/s",
+        "humidity": "78%"
+      }
+    },
+    {
+      "timestamp": "2025-08-31T02:58:49.957759",
+      "height_meters": 2.2828008486215388,
+      "tide_type": "high",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Pratipada",
+        "nakshatra": "Rohini",
+        "paksha": "Shukla",
+        "lunar_day": 1
+      },
+      "weather_info": {
+        "condition": "clear",
+        "temperature": "27.3\u00b0C",
+        "wind_speed": "0.3 m/s",
+        "humidity": "77%"
+      }
+    },
+    {
+      "timestamp": "2025-08-31T03:58:49.957759",
+      "height_meters": 2.248316728634782,
+      "tide_type": "high",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Pratipada",
+        "nakshatra": "Rohini",
+        "paksha": "Shukla",
+        "lunar_day": 1
+      },
+      "weather_info": {
+        "condition": "clear",
+        "temperature": "24.9\u00b0C",
+        "wind_speed": "6.5 m/s",
+        "humidity": "60%"
+      }
+    },
+    {
+      "timestamp": "2025-08-31T04:58:49.957759",
+      "height_meters": 2.064511693360697,
+      "tide_type": "high",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Pratipada",
+        "nakshatra": "Rohini",
+        "paksha": "Shukla",
+        "lunar_day": 1
+      },
+      "weather_info": {
+        "condition": "cloudy",
+        "temperature": "28.2\u00b0C",
+        "wind_speed": "10.0 m/s",
+        "humidity": "77%"
+      }
+    },
+    {
+      "timestamp": "2025-08-31T05:58:49.957759",
+      "height_meters": 1.777381630419817,
+      "tide_type": "falling",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Pratipada",
+        "nakshatra": "Rohini",
+        "paksha": "Shukla",
+        "lunar_day": 1
+      },
+      "weather_info": {
+        "condition": "clear",
+        "temperature": "27.1\u00b0C",
+        "wind_speed": "1.8 m/s",
+        "humidity": "65%"
+      }
+    },
+    {
+      "timestamp": "2025-08-31T06:58:49.957759",
+      "height_meters": 1.4586804722492606,
+      "tide_type": "rising",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Pratipada",
+        "nakshatra": "Rohini",
+        "paksha": "Shukla",
+        "lunar_day": 1
+      },
+      "weather_info": {
+        "condition": "clear",
+        "temperature": "32.9\u00b0C",
+        "wind_speed": "14.4 m/s",
+        "humidity": "48%"
+      }
+    },
+    {
+      "timestamp": "2025-08-31T07:58:49.957759",
+      "height_meters": 1.1879879615721431,
+      "tide_type": "rising",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Pratipada",
+        "nakshatra": "Rohini",
+        "paksha": "Shukla",
+        "lunar_day": 1
+      },
+      "weather_info": {
+        "condition": "rainy",
+        "temperature": "29.0\u00b0C",
+        "wind_speed": "1.5 m/s",
+        "humidity": "57%"
+      }
+    },
+    {
+      "timestamp": "2025-08-31T08:58:49.957759",
+      "height_meters": 1.0328373097703076,
+      "tide_type": "rising",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Pratipada",
+        "nakshatra": "Rohini",
+        "paksha": "Shukla",
+        "lunar_day": 1
+      },
+      "weather_info": {
+        "condition": "rainy",
+        "temperature": "29.9\u00b0C",
+        "wind_speed": "3.0 m/s",
+        "humidity": "57%"
+      }
+    },
+    {
+      "timestamp": "2025-08-31T09:58:49.957759",
+      "height_meters": 1.0318655019518275,
+      "tide_type": "falling",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Pratipada",
+        "nakshatra": "Rohini",
+        "paksha": "Shukla",
+        "lunar_day": 1
+      },
+      "weather_info": {
+        "condition": "rainy",
+        "temperature": "24.4\u00b0C",
+        "wind_speed": "3.7 m/s",
+        "humidity": "59%"
+      }
+    },
+    {
+      "timestamp": "2025-08-31T10:58:49.957759",
+      "height_meters": 1.18519060650988,
+      "tide_type": "falling",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Pratipada",
+        "nakshatra": "Rohini",
+        "paksha": "Shukla",
+        "lunar_day": 1
+      },
+      "weather_info": {
+        "condition": "clear",
+        "temperature": "27.1\u00b0C",
+        "wind_speed": "4.7 m/s",
+        "humidity": "68%"
+      }
+    },
+    {
+      "timestamp": "2025-08-31T11:58:49.957759",
+      "height_meters": 1.4544128956513085,
+      "tide_type": "falling",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Pratipada",
+        "nakshatra": "Rohini",
+        "paksha": "Shukla",
+        "lunar_day": 1
+      },
+      "weather_info": {
+        "condition": "cloudy",
+        "temperature": "24.4\u00b0C",
+        "wind_speed": "9.1 m/s",
+        "humidity": "49%"
+      }
+    },
+    {
+      "timestamp": "2025-08-31T12:58:49.957759",
+      "height_meters": 1.7722319801274322,
+      "tide_type": "rising",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Pratipada",
+        "nakshatra": "Rohini",
+        "paksha": "Shukla",
+        "lunar_day": 1
+      },
+      "weather_info": {
+        "condition": "clear",
+        "temperature": "22.7\u00b0C",
+        "wind_speed": "10.0 m/s",
+        "humidity": "45%"
+      }
+    },
+    {
+      "timestamp": "2025-08-31T13:58:49.957759",
+      "height_meters": 2.059271351557129,
+      "tide_type": "high",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Pratipada",
+        "nakshatra": "Rohini",
+        "paksha": "Shukla",
+        "lunar_day": 1
+      },
+      "weather_info": {
+        "condition": "cloudy",
+        "temperature": "18.3\u00b0C",
+        "wind_speed": "7.4 m/s",
+        "humidity": "42%"
+      }
+    },
+    {
+      "timestamp": "2025-08-31T14:58:49.957759",
+      "height_meters": 2.24390415377438,
+      "tide_type": "high",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Pratipada",
+        "nakshatra": "Rohini",
+        "paksha": "Shukla",
+        "lunar_day": 1
+      },
+      "weather_info": {
+        "condition": "rainy",
+        "temperature": "15.2\u00b0C",
+        "wind_speed": "8.6 m/s",
+        "humidity": "72%"
+      }
+    },
+    {
+      "timestamp": "2025-08-31T15:58:49.957759",
+      "height_meters": 2.2801280326503535,
+      "tide_type": "high",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Pratipada",
+        "nakshatra": "Rohini",
+        "paksha": "Shukla",
+        "lunar_day": 1
+      },
+      "weather_info": {
+        "condition": "rainy",
+        "temperature": "11.4\u00b0C",
+        "wind_speed": "7.5 m/s",
+        "humidity": "61%"
+      }
+    },
+    {
+      "timestamp": "2025-08-31T16:58:49.957759",
+      "height_meters": 2.1590279791580755,
+      "tide_type": "high",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Pratipada",
+        "nakshatra": "Rohini",
+        "paksha": "Shukla",
+        "lunar_day": 1
+      },
+      "weather_info": {
+        "condition": "cloudy",
+        "temperature": "8.8\u00b0C",
+        "wind_speed": "0.9 m/s",
+        "humidity": "77%"
+      }
+    },
+    {
+      "timestamp": "2025-08-31T17:58:49.957759",
+      "height_meters": 1.9109705933152965,
+      "tide_type": "falling",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Pratipada",
+        "nakshatra": "Rohini",
+        "paksha": "Shukla",
+        "lunar_day": 1
+      },
+      "weather_info": {
+        "condition": "clear",
+        "temperature": "11.2\u00b0C",
+        "wind_speed": "10.3 m/s",
+        "humidity": "69%"
+      }
+    },
+    {
+      "timestamp": "2025-08-31T18:58:49.957759",
+      "height_meters": 1.5979896410047092,
+      "tide_type": "rising",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Pratipada",
+        "nakshatra": "Rohini",
+        "paksha": "Shukla",
+        "lunar_day": 1
+      },
+      "weather_info": {
+        "condition": "clear",
+        "temperature": "10.8\u00b0C",
+        "wind_speed": "3.4 m/s",
+        "humidity": "51%"
+      }
+    },
+    {
+      "timestamp": "2025-08-31T19:58:49.957759",
+      "height_meters": 1.29827218761383,
+      "tide_type": "rising",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Pratipada",
+        "nakshatra": "Rohini",
+        "paksha": "Shukla",
+        "lunar_day": 1
+      },
+      "weather_info": {
+        "condition": "rainy",
+        "temperature": "10.1\u00b0C",
+        "wind_speed": "14.4 m/s",
+        "humidity": "73%"
+      }
+    },
+    {
+      "timestamp": "2025-08-31T20:58:49.957759",
+      "height_meters": 1.0866252712166078,
+      "tide_type": "rising",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Pratipada",
+        "nakshatra": "Rohini",
+        "paksha": "Shukla",
+        "lunar_day": 1
+      },
+      "weather_info": {
+        "condition": "rainy",
+        "temperature": "10.1\u00b0C",
+        "wind_speed": "13.9 m/s",
+        "humidity": "74%"
+      }
+    },
+    {
+      "timestamp": "2025-08-31T21:58:49.957759",
+      "height_meters": 1.0158033577437255,
+      "tide_type": "falling",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Pratipada",
+        "nakshatra": "Rohini",
+        "paksha": "Shukla",
+        "lunar_day": 1
+      },
+      "weather_info": {
+        "condition": "cloudy",
+        "temperature": "10.3\u00b0C",
+        "wind_speed": "6.5 m/s",
+        "humidity": "66%"
+      }
+    },
+    {
+      "timestamp": "2025-08-31T22:58:49.957759",
+      "height_meters": 1.10335774565413,
+      "tide_type": "falling",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Pratipada",
+        "nakshatra": "Rohini",
+        "paksha": "Shukla",
+        "lunar_day": 1
+      },
+      "weather_info": {
+        "condition": "rainy",
+        "temperature": "16.7\u00b0C",
+        "wind_speed": "0.9 m/s",
+        "humidity": "41%"
+      }
+    },
+    {
+      "timestamp": "2025-08-31T23:58:49.957759",
+      "height_meters": 1.3272863808724746,
+      "tide_type": "falling",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Pratipada",
+        "nakshatra": "Rohini",
+        "paksha": "Shukla",
+        "lunar_day": 1
+      },
+      "weather_info": {
+        "condition": "clear",
+        "temperature": "18.8\u00b0C",
+        "wind_speed": "13.3 m/s",
+        "humidity": "58%"
+      }
+    },
+    {
+      "timestamp": "2025-09-01T00:58:49.957759",
+      "height_meters": 2.2553500583110466,
+      "tide_type": "high",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Pratipada",
+        "nakshatra": "Ashwini",
+        "paksha": "Shukla",
+        "lunar_day": 1
+      },
+      "weather_info": {
+        "condition": "clear",
+        "temperature": "22.5\u00b0C",
+        "wind_speed": "2.0 m/s",
+        "humidity": "40%"
+      }
+    },
+    {
+      "timestamp": "2025-09-01T01:58:49.957759",
+      "height_meters": 2.543108270043033,
+      "tide_type": "high",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Pratipada",
+        "nakshatra": "Ashwini",
+        "paksha": "Shukla",
+        "lunar_day": 1
+      },
+      "weather_info": {
+        "condition": "clear",
+        "temperature": "20.3\u00b0C",
+        "wind_speed": "14.6 m/s",
+        "humidity": "71%"
+      }
+    },
+    {
+      "timestamp": "2025-09-01T02:58:49.957759",
+      "height_meters": 2.6825560759198566,
+      "tide_type": "high",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Pratipada",
+        "nakshatra": "Ashwini",
+        "paksha": "Shukla",
+        "lunar_day": 1
+      },
+      "weather_info": {
+        "condition": "rainy",
+        "temperature": "22.7\u00b0C",
+        "wind_speed": "3.2 m/s",
+        "humidity": "49%"
+      }
+    },
+    {
+      "timestamp": "2025-09-01T03:58:49.957759",
+      "height_meters": 2.6389653159028503,
+      "tide_type": "high",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Pratipada",
+        "nakshatra": "Ashwini",
+        "paksha": "Shukla",
+        "lunar_day": 1
+      },
+      "weather_info": {
+        "condition": "rainy",
+        "temperature": "26.6\u00b0C",
+        "wind_speed": "3.6 m/s",
+        "humidity": "56%"
+      }
+    },
+    {
+      "timestamp": "2025-09-01T04:58:49.957759",
+      "height_meters": 2.4233447753021746,
+      "tide_type": "high",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Pratipada",
+        "nakshatra": "Ashwini",
+        "paksha": "Shukla",
+        "lunar_day": 1
+      },
+      "weather_info": {
+        "condition": "cloudy",
+        "temperature": "31.5\u00b0C",
+        "wind_speed": "1.9 m/s",
+        "humidity": "56%"
+      }
+    },
+    {
+      "timestamp": "2025-09-01T05:58:49.957759",
+      "height_meters": 2.0896606151488024,
+      "tide_type": "high",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Pratipada",
+        "nakshatra": "Ashwini",
+        "paksha": "Shukla",
+        "lunar_day": 1
+      },
+      "weather_info": {
+        "condition": "cloudy",
+        "temperature": "28.1\u00b0C",
+        "wind_speed": "3.1 m/s",
+        "humidity": "52%"
+      }
+    },
+    {
+      "timestamp": "2025-09-01T06:58:49.957759",
+      "height_meters": 1.7213292852389468,
+      "tide_type": "rising",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Pratipada",
+        "nakshatra": "Ashwini",
+        "paksha": "Shukla",
+        "lunar_day": 1
+      },
+      "weather_info": {
+        "condition": "rainy",
+        "temperature": "29.1\u00b0C",
+        "wind_speed": "11.7 m/s",
+        "humidity": "64%"
+      }
+    },
+    {
+      "timestamp": "2025-09-01T07:58:49.957759",
+      "height_meters": 1.410363649634162,
+      "tide_type": "rising",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Pratipada",
+        "nakshatra": "Ashwini",
+        "paksha": "Shukla",
+        "lunar_day": 1
+      },
+      "weather_info": {
+        "condition": "cloudy",
+        "temperature": "30.1\u00b0C",
+        "wind_speed": "3.8 m/s",
+        "humidity": "76%"
+      }
+    },
+    {
+      "timestamp": "2025-09-01T08:58:49.957759",
+      "height_meters": 1.2343859569159623,
+      "tide_type": "rising",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Pratipada",
+        "nakshatra": "Ashwini",
+        "paksha": "Shukla",
+        "lunar_day": 1
+      },
+      "weather_info": {
+        "condition": "cloudy",
+        "temperature": "31.1\u00b0C",
+        "wind_speed": "0.8 m/s",
+        "humidity": "58%"
+      }
+    },
+    {
+      "timestamp": "2025-09-01T09:58:49.957759",
+      "height_meters": 1.2372506862642525,
+      "tide_type": "falling",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Pratipada",
+        "nakshatra": "Ashwini",
+        "paksha": "Shukla",
+        "lunar_day": 1
+      },
+      "weather_info": {
+        "condition": "cloudy",
+        "temperature": "24.9\u00b0C",
+        "wind_speed": "3.2 m/s",
+        "humidity": "75%"
+      }
+    },
+    {
+      "timestamp": "2025-09-01T10:58:49.957759",
+      "height_meters": 1.4181147945055517,
+      "tide_type": "falling",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Pratipada",
+        "nakshatra": "Ashwini",
+        "paksha": "Shukla",
+        "lunar_day": 1
+      },
+      "weather_info": {
+        "condition": "rainy",
+        "temperature": "26.6\u00b0C",
+        "wind_speed": "6.9 m/s",
+        "humidity": "63%"
+      }
+    },
+    {
+      "timestamp": "2025-09-01T11:58:49.957759",
+      "height_meters": 1.7316796098710079,
+      "tide_type": "falling",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Pratipada",
+        "nakshatra": "Ashwini",
+        "paksha": "Shukla",
+        "lunar_day": 1
+      },
+      "weather_info": {
+        "condition": "clear",
+        "temperature": "22.9\u00b0C",
+        "wind_speed": "10.8 m/s",
+        "humidity": "65%"
+      }
+    },
+    {
+      "timestamp": "2025-09-01T12:58:49.957759",
+      "height_meters": 2.099536258299673,
+      "tide_type": "high",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Pratipada",
+        "nakshatra": "Ashwini",
+        "paksha": "Shukla",
+        "lunar_day": 1
+      },
+      "weather_info": {
+        "condition": "clear",
+        "temperature": "22.9\u00b0C",
+        "wind_speed": "5.0 m/s",
+        "humidity": "61%"
+      }
+    },
+    {
+      "timestamp": "2025-09-01T13:58:49.957759",
+      "height_meters": 2.4297730520568286,
+      "tide_type": "high",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Pratipada",
+        "nakshatra": "Ashwini",
+        "paksha": "Shukla",
+        "lunar_day": 1
+      },
+      "weather_info": {
+        "condition": "cloudy",
+        "temperature": "19.3\u00b0C",
+        "wind_speed": "8.3 m/s",
+        "humidity": "62%"
+      }
+    },
+    {
+      "timestamp": "2025-09-01T14:58:49.957759",
+      "height_meters": 2.6399415163021076,
+      "tide_type": "high",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Pratipada",
+        "nakshatra": "Ashwini",
+        "paksha": "Shukla",
+        "lunar_day": 1
+      },
+      "weather_info": {
+        "condition": "cloudy",
+        "temperature": "15.5\u00b0C",
+        "wind_speed": "10.2 m/s",
+        "humidity": "63%"
+      }
+    },
+    {
+      "timestamp": "2025-09-01T15:58:49.957759",
+      "height_meters": 2.6776422208272406,
+      "tide_type": "high",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Pratipada",
+        "nakshatra": "Ashwini",
+        "paksha": "Shukla",
+        "lunar_day": 1
+      },
+      "weather_info": {
+        "condition": "cloudy",
+        "temperature": "11.9\u00b0C",
+        "wind_speed": "0.1 m/s",
+        "humidity": "46%"
+      }
+    },
+    {
+      "timestamp": "2025-09-01T16:58:49.957759",
+      "height_meters": 2.533590189066391,
+      "tide_type": "high",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Pratipada",
+        "nakshatra": "Ashwini",
+        "paksha": "Shukla",
+        "lunar_day": 1
+      },
+      "weather_info": {
+        "condition": "cloudy",
+        "temperature": "12.4\u00b0C",
+        "wind_speed": "8.6 m/s",
+        "humidity": "61%"
+      }
+    },
+    {
+      "timestamp": "2025-09-01T17:58:49.957759",
+      "height_meters": 2.2439018445976506,
+      "tide_type": "high",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Pratipada",
+        "nakshatra": "Ashwini",
+        "paksha": "Shukla",
+        "lunar_day": 1
+      },
+      "weather_info": {
+        "condition": "rainy",
+        "temperature": "7.5\u00b0C",
+        "wind_speed": "12.2 m/s",
+        "humidity": "73%"
+      }
+    },
+    {
+      "timestamp": "2025-09-01T18:58:49.957759",
+      "height_meters": 1.8810401487284425,
+      "tide_type": "rising",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Pratipada",
+        "nakshatra": "Ashwini",
+        "paksha": "Shukla",
+        "lunar_day": 1
+      },
+      "weather_info": {
+        "condition": "cloudy",
+        "temperature": "7.6\u00b0C",
+        "wind_speed": "4.9 m/s",
+        "humidity": "48%"
+      }
+    },
+    {
+      "timestamp": "2025-09-01T19:58:49.957759",
+      "height_meters": 1.5356880602792864,
+      "tide_type": "rising",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Pratipada",
+        "nakshatra": "Ashwini",
+        "paksha": "Shukla",
+        "lunar_day": 1
+      },
+      "weather_info": {
+        "condition": "clear",
+        "temperature": "13.3\u00b0C",
+        "wind_speed": "14.1 m/s",
+        "humidity": "79%"
+      }
+    },
+    {
+      "timestamp": "2025-09-01T20:58:49.957759",
+      "height_meters": 1.2940847952721615,
+      "tide_type": "rising",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Pratipada",
+        "nakshatra": "Ashwini",
+        "paksha": "Shukla",
+        "lunar_day": 1
+      },
+      "weather_info": {
+        "condition": "cloudy",
+        "temperature": "14.3\u00b0C",
+        "wind_speed": "0.2 m/s",
+        "humidity": "47%"
+      }
+    },
+    {
+      "timestamp": "2025-09-01T21:58:49.957759",
+      "height_meters": 1.216489345696615,
+      "tide_type": "falling",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Pratipada",
+        "nakshatra": "Ashwini",
+        "paksha": "Shukla",
+        "lunar_day": 1
+      },
+      "weather_info": {
+        "condition": "rainy",
+        "temperature": "13.6\u00b0C",
+        "wind_speed": "4.8 m/s",
+        "humidity": "65%"
+      }
+    },
+    {
+      "timestamp": "2025-09-01T22:58:49.957759",
+      "height_meters": 1.3221498849830753,
+      "tide_type": "falling",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Pratipada",
+        "nakshatra": "Ashwini",
+        "paksha": "Shukla",
+        "lunar_day": 1
+      },
+      "weather_info": {
+        "condition": "clear",
+        "temperature": "15.9\u00b0C",
+        "wind_speed": "9.8 m/s",
+        "humidity": "67%"
+      }
+    },
+    {
+      "timestamp": "2025-09-01T23:58:49.957759",
+      "height_meters": 1.584528489661805,
+      "tide_type": "falling",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Pratipada",
+        "nakshatra": "Ashwini",
+        "paksha": "Shukla",
+        "lunar_day": 1
+      },
+      "weather_info": {
+        "condition": "cloudy",
+        "temperature": "19.6\u00b0C",
+        "wind_speed": "9.4 m/s",
+        "humidity": "55%"
+      }
+    },
+    {
+      "timestamp": "2025-09-02T00:58:49.957759",
+      "height_meters": 1.9083731262631936,
+      "tide_type": "rising",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Dwitiya",
+        "nakshatra": "Bharani",
+        "paksha": "Shukla",
+        "lunar_day": 2
+      },
+      "weather_info": {
+        "condition": "cloudy",
+        "temperature": "20.0\u00b0C",
+        "wind_speed": "10.1 m/s",
+        "humidity": "41%"
+      }
+    },
+    {
+      "timestamp": "2025-09-02T01:58:49.957759",
+      "height_meters": 2.159236621399554,
+      "tide_type": "high",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Dwitiya",
+        "nakshatra": "Bharani",
+        "paksha": "Shukla",
+        "lunar_day": 2
+      },
+      "weather_info": {
+        "condition": "cloudy",
+        "temperature": "21.7\u00b0C",
+        "wind_speed": "10.4 m/s",
+        "humidity": "72%"
+      }
+    },
+    {
+      "timestamp": "2025-09-02T02:58:49.957759",
+      "height_meters": 2.2828008486215388,
+      "tide_type": "high",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Dwitiya",
+        "nakshatra": "Bharani",
+        "paksha": "Shukla",
+        "lunar_day": 2
+      },
+      "weather_info": {
+        "condition": "cloudy",
+        "temperature": "25.8\u00b0C",
+        "wind_speed": "0.1 m/s",
+        "humidity": "72%"
+      }
+    },
+    {
+      "timestamp": "2025-09-02T03:58:49.957759",
+      "height_meters": 2.248316728634782,
+      "tide_type": "high",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Dwitiya",
+        "nakshatra": "Bharani",
+        "paksha": "Shukla",
+        "lunar_day": 2
+      },
+      "weather_info": {
+        "condition": "rainy",
+        "temperature": "27.3\u00b0C",
+        "wind_speed": "13.4 m/s",
+        "humidity": "64%"
+      }
+    },
+    {
+      "timestamp": "2025-09-02T04:58:49.957759",
+      "height_meters": 2.064511693360697,
+      "tide_type": "high",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Dwitiya",
+        "nakshatra": "Bharani",
+        "paksha": "Shukla",
+        "lunar_day": 2
+      },
+      "weather_info": {
+        "condition": "cloudy",
+        "temperature": "30.9\u00b0C",
+        "wind_speed": "14.1 m/s",
+        "humidity": "80%"
+      }
+    },
+    {
+      "timestamp": "2025-09-02T05:58:49.957759",
+      "height_meters": 1.777381630419817,
+      "tide_type": "falling",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Dwitiya",
+        "nakshatra": "Bharani",
+        "paksha": "Shukla",
+        "lunar_day": 2
+      },
+      "weather_info": {
+        "condition": "rainy",
+        "temperature": "27.6\u00b0C",
+        "wind_speed": "10.7 m/s",
+        "humidity": "54%"
+      }
+    },
+    {
+      "timestamp": "2025-09-02T06:58:49.957759",
+      "height_meters": 1.4586804722492606,
+      "tide_type": "rising",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Dwitiya",
+        "nakshatra": "Bharani",
+        "paksha": "Shukla",
+        "lunar_day": 2
+      },
+      "weather_info": {
+        "condition": "rainy",
+        "temperature": "27.7\u00b0C",
+        "wind_speed": "3.8 m/s",
+        "humidity": "45%"
+      }
+    },
+    {
+      "timestamp": "2025-09-02T07:58:49.957759",
+      "height_meters": 1.1879879615721431,
+      "tide_type": "rising",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Dwitiya",
+        "nakshatra": "Bharani",
+        "paksha": "Shukla",
+        "lunar_day": 2
+      },
+      "weather_info": {
+        "condition": "cloudy",
+        "temperature": "32.0\u00b0C",
+        "wind_speed": "14.2 m/s",
+        "humidity": "61%"
+      }
+    },
+    {
+      "timestamp": "2025-09-02T08:58:49.957759",
+      "height_meters": 1.0328373097703076,
+      "tide_type": "rising",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Dwitiya",
+        "nakshatra": "Bharani",
+        "paksha": "Shukla",
+        "lunar_day": 2
+      },
+      "weather_info": {
+        "condition": "cloudy",
+        "temperature": "30.3\u00b0C",
+        "wind_speed": "10.4 m/s",
+        "humidity": "47%"
+      }
+    },
+    {
+      "timestamp": "2025-09-02T09:58:49.957759",
+      "height_meters": 1.0318655019518275,
+      "tide_type": "falling",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Dwitiya",
+        "nakshatra": "Bharani",
+        "paksha": "Shukla",
+        "lunar_day": 2
+      },
+      "weather_info": {
+        "condition": "rainy",
+        "temperature": "28.8\u00b0C",
+        "wind_speed": "7.2 m/s",
+        "humidity": "50%"
+      }
+    },
+    {
+      "timestamp": "2025-09-02T10:58:49.957759",
+      "height_meters": 1.18519060650988,
+      "tide_type": "falling",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Dwitiya",
+        "nakshatra": "Bharani",
+        "paksha": "Shukla",
+        "lunar_day": 2
+      },
+      "weather_info": {
+        "condition": "rainy",
+        "temperature": "24.9\u00b0C",
+        "wind_speed": "10.5 m/s",
+        "humidity": "44%"
+      }
+    },
+    {
+      "timestamp": "2025-09-02T11:58:49.957759",
+      "height_meters": 1.4544128956513085,
+      "tide_type": "falling",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Dwitiya",
+        "nakshatra": "Bharani",
+        "paksha": "Shukla",
+        "lunar_day": 2
+      },
+      "weather_info": {
+        "condition": "cloudy",
+        "temperature": "22.4\u00b0C",
+        "wind_speed": "1.2 m/s",
+        "humidity": "48%"
+      }
+    },
+    {
+      "timestamp": "2025-09-02T12:58:49.957759",
+      "height_meters": 1.7722319801274322,
+      "tide_type": "rising",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Dwitiya",
+        "nakshatra": "Bharani",
+        "paksha": "Shukla",
+        "lunar_day": 2
+      },
+      "weather_info": {
+        "condition": "clear",
+        "temperature": "19.5\u00b0C",
+        "wind_speed": "3.1 m/s",
+        "humidity": "49%"
+      }
+    },
+    {
+      "timestamp": "2025-09-02T13:58:49.957759",
+      "height_meters": 2.059271351557129,
+      "tide_type": "high",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Dwitiya",
+        "nakshatra": "Bharani",
+        "paksha": "Shukla",
+        "lunar_day": 2
+      },
+      "weather_info": {
+        "condition": "cloudy",
+        "temperature": "19.9\u00b0C",
+        "wind_speed": "8.2 m/s",
+        "humidity": "51%"
+      }
+    },
+    {
+      "timestamp": "2025-09-02T14:58:49.957759",
+      "height_meters": 2.24390415377438,
+      "tide_type": "high",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Dwitiya",
+        "nakshatra": "Bharani",
+        "paksha": "Shukla",
+        "lunar_day": 2
+      },
+      "weather_info": {
+        "condition": "rainy",
+        "temperature": "15.6\u00b0C",
+        "wind_speed": "9.0 m/s",
+        "humidity": "69%"
+      }
+    },
+    {
+      "timestamp": "2025-09-02T15:58:49.957759",
+      "height_meters": 2.2801280326503535,
+      "tide_type": "high",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Dwitiya",
+        "nakshatra": "Bharani",
+        "paksha": "Shukla",
+        "lunar_day": 2
+      },
+      "weather_info": {
+        "condition": "rainy",
+        "temperature": "15.5\u00b0C",
+        "wind_speed": "8.2 m/s",
+        "humidity": "79%"
+      }
+    },
+    {
+      "timestamp": "2025-09-02T16:58:49.957759",
+      "height_meters": 2.1590279791580755,
+      "tide_type": "high",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Dwitiya",
+        "nakshatra": "Bharani",
+        "paksha": "Shukla",
+        "lunar_day": 2
+      },
+      "weather_info": {
+        "condition": "cloudy",
+        "temperature": "9.4\u00b0C",
+        "wind_speed": "2.7 m/s",
+        "humidity": "45%"
+      }
+    },
+    {
+      "timestamp": "2025-09-02T17:58:49.957759",
+      "height_meters": 1.9109705933152965,
+      "tide_type": "falling",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Dwitiya",
+        "nakshatra": "Bharani",
+        "paksha": "Shukla",
+        "lunar_day": 2
+      },
+      "weather_info": {
+        "condition": "clear",
+        "temperature": "8.9\u00b0C",
+        "wind_speed": "14.7 m/s",
+        "humidity": "58%"
+      }
+    },
+    {
+      "timestamp": "2025-09-02T18:58:49.957759",
+      "height_meters": 1.5979896410047092,
+      "tide_type": "rising",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Dwitiya",
+        "nakshatra": "Bharani",
+        "paksha": "Shukla",
+        "lunar_day": 2
+      },
+      "weather_info": {
+        "condition": "clear",
+        "temperature": "7.6\u00b0C",
+        "wind_speed": "11.4 m/s",
+        "humidity": "77%"
+      }
+    },
+    {
+      "timestamp": "2025-09-02T19:58:49.957759",
+      "height_meters": 1.29827218761383,
+      "tide_type": "rising",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Dwitiya",
+        "nakshatra": "Bharani",
+        "paksha": "Shukla",
+        "lunar_day": 2
+      },
+      "weather_info": {
+        "condition": "cloudy",
+        "temperature": "12.5\u00b0C",
+        "wind_speed": "7.9 m/s",
+        "humidity": "70%"
+      }
+    },
+    {
+      "timestamp": "2025-09-02T20:58:49.957759",
+      "height_meters": 1.0866252712166078,
+      "tide_type": "rising",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Dwitiya",
+        "nakshatra": "Bharani",
+        "paksha": "Shukla",
+        "lunar_day": 2
+      },
+      "weather_info": {
+        "condition": "cloudy",
+        "temperature": "8.6\u00b0C",
+        "wind_speed": "9.7 m/s",
+        "humidity": "51%"
+      }
+    },
+    {
+      "timestamp": "2025-09-02T21:58:49.957759",
+      "height_meters": 1.0158033577437255,
+      "tide_type": "falling",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Dwitiya",
+        "nakshatra": "Bharani",
+        "paksha": "Shukla",
+        "lunar_day": 2
+      },
+      "weather_info": {
+        "condition": "cloudy",
+        "temperature": "14.5\u00b0C",
+        "wind_speed": "2.2 m/s",
+        "humidity": "78%"
+      }
+    },
+    {
+      "timestamp": "2025-09-02T22:58:49.957759",
+      "height_meters": 1.10335774565413,
+      "tide_type": "falling",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Dwitiya",
+        "nakshatra": "Bharani",
+        "paksha": "Shukla",
+        "lunar_day": 2
+      },
+      "weather_info": {
+        "condition": "rainy",
+        "temperature": "17.2\u00b0C",
+        "wind_speed": "5.5 m/s",
+        "humidity": "76%"
+      }
+    },
+    {
+      "timestamp": "2025-09-02T23:58:49.957759",
+      "height_meters": 1.3272863808724746,
+      "tide_type": "falling",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Dwitiya",
+        "nakshatra": "Bharani",
+        "paksha": "Shukla",
+        "lunar_day": 2
+      },
+      "weather_info": {
+        "condition": "clear",
+        "temperature": "17.1\u00b0C",
+        "wind_speed": "5.5 m/s",
+        "humidity": "52%"
+      }
+    },
+    {
+      "timestamp": "2025-09-03T00:58:49.957759",
+      "height_meters": 2.2553500583110466,
+      "tide_type": "high",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Tritiya",
+        "nakshatra": "Krittika",
+        "paksha": "Shukla",
+        "lunar_day": 3
+      },
+      "weather_info": {
+        "condition": "cloudy",
+        "temperature": "22.5\u00b0C",
+        "wind_speed": "13.1 m/s",
+        "humidity": "55%"
+      }
+    },
+    {
+      "timestamp": "2025-09-03T01:58:49.957759",
+      "height_meters": 2.543108270043033,
+      "tide_type": "high",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Tritiya",
+        "nakshatra": "Krittika",
+        "paksha": "Shukla",
+        "lunar_day": 3
+      },
+      "weather_info": {
+        "condition": "rainy",
+        "temperature": "24.1\u00b0C",
+        "wind_speed": "12.7 m/s",
+        "humidity": "77%"
+      }
+    },
+    {
+      "timestamp": "2025-09-03T02:58:49.957759",
+      "height_meters": 2.6825560759198566,
+      "tide_type": "high",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Tritiya",
+        "nakshatra": "Krittika",
+        "paksha": "Shukla",
+        "lunar_day": 3
+      },
+      "weather_info": {
+        "condition": "rainy",
+        "temperature": "26.3\u00b0C",
+        "wind_speed": "8.8 m/s",
+        "humidity": "41%"
+      }
+    },
+    {
+      "timestamp": "2025-09-03T03:58:49.957759",
+      "height_meters": 2.6389653159028503,
+      "tide_type": "high",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Tritiya",
+        "nakshatra": "Krittika",
+        "paksha": "Shukla",
+        "lunar_day": 3
+      },
+      "weather_info": {
+        "condition": "cloudy",
+        "temperature": "27.7\u00b0C",
+        "wind_speed": "10.0 m/s",
+        "humidity": "42%"
+      }
+    },
+    {
+      "timestamp": "2025-09-03T04:58:49.957759",
+      "height_meters": 2.4233447753021746,
+      "tide_type": "high",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Tritiya",
+        "nakshatra": "Krittika",
+        "paksha": "Shukla",
+        "lunar_day": 3
+      },
+      "weather_info": {
+        "condition": "rainy",
+        "temperature": "28.0\u00b0C",
+        "wind_speed": "10.6 m/s",
+        "humidity": "61%"
+      }
+    },
+    {
+      "timestamp": "2025-09-03T05:58:49.957759",
+      "height_meters": 2.0896606151488024,
+      "tide_type": "high",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Tritiya",
+        "nakshatra": "Krittika",
+        "paksha": "Shukla",
+        "lunar_day": 3
+      },
+      "weather_info": {
+        "condition": "cloudy",
+        "temperature": "27.4\u00b0C",
+        "wind_speed": "0.0 m/s",
+        "humidity": "61%"
+      }
+    },
+    {
+      "timestamp": "2025-09-03T06:58:49.957759",
+      "height_meters": 1.7213292852389468,
+      "tide_type": "rising",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Tritiya",
+        "nakshatra": "Krittika",
+        "paksha": "Shukla",
+        "lunar_day": 3
+      },
+      "weather_info": {
+        "condition": "rainy",
+        "temperature": "32.3\u00b0C",
+        "wind_speed": "12.4 m/s",
+        "humidity": "66%"
+      }
+    },
+    {
+      "timestamp": "2025-09-03T07:58:49.957759",
+      "height_meters": 1.410363649634162,
+      "tide_type": "rising",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Tritiya",
+        "nakshatra": "Krittika",
+        "paksha": "Shukla",
+        "lunar_day": 3
+      },
+      "weather_info": {
+        "condition": "cloudy",
+        "temperature": "27.2\u00b0C",
+        "wind_speed": "0.1 m/s",
+        "humidity": "72%"
+      }
+    },
+    {
+      "timestamp": "2025-09-03T08:58:49.957759",
+      "height_meters": 1.2343859569159623,
+      "tide_type": "rising",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Tritiya",
+        "nakshatra": "Krittika",
+        "paksha": "Shukla",
+        "lunar_day": 3
+      },
+      "weather_info": {
+        "condition": "rainy",
+        "temperature": "27.2\u00b0C",
+        "wind_speed": "1.9 m/s",
+        "humidity": "49%"
+      }
+    },
+    {
+      "timestamp": "2025-09-03T09:58:49.957759",
+      "height_meters": 1.2372506862642525,
+      "tide_type": "falling",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Tritiya",
+        "nakshatra": "Krittika",
+        "paksha": "Shukla",
+        "lunar_day": 3
+      },
+      "weather_info": {
+        "condition": "cloudy",
+        "temperature": "28.9\u00b0C",
+        "wind_speed": "8.2 m/s",
+        "humidity": "55%"
+      }
+    },
+    {
+      "timestamp": "2025-09-03T10:58:49.957759",
+      "height_meters": 1.4181147945055517,
+      "tide_type": "falling",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Tritiya",
+        "nakshatra": "Krittika",
+        "paksha": "Shukla",
+        "lunar_day": 3
+      },
+      "weather_info": {
+        "condition": "rainy",
+        "temperature": "24.2\u00b0C",
+        "wind_speed": "3.6 m/s",
+        "humidity": "60%"
+      }
+    },
+    {
+      "timestamp": "2025-09-03T11:58:49.957759",
+      "height_meters": 1.7316796098710079,
+      "tide_type": "falling",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Tritiya",
+        "nakshatra": "Krittika",
+        "paksha": "Shukla",
+        "lunar_day": 3
+      },
+      "weather_info": {
+        "condition": "clear",
+        "temperature": "22.9\u00b0C",
+        "wind_speed": "2.9 m/s",
+        "humidity": "65%"
+      }
+    },
+    {
+      "timestamp": "2025-09-03T12:58:49.957759",
+      "height_meters": 2.099536258299673,
+      "tide_type": "high",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Tritiya",
+        "nakshatra": "Krittika",
+        "paksha": "Shukla",
+        "lunar_day": 3
+      },
+      "weather_info": {
+        "condition": "cloudy",
+        "temperature": "19.4\u00b0C",
+        "wind_speed": "4.3 m/s",
+        "humidity": "42%"
+      }
+    },
+    {
+      "timestamp": "2025-09-03T13:58:49.957759",
+      "height_meters": 2.4297730520568286,
+      "tide_type": "high",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Tritiya",
+        "nakshatra": "Krittika",
+        "paksha": "Shukla",
+        "lunar_day": 3
+      },
+      "weather_info": {
+        "condition": "rainy",
+        "temperature": "14.7\u00b0C",
+        "wind_speed": "5.0 m/s",
+        "humidity": "78%"
+      }
+    },
+    {
+      "timestamp": "2025-09-03T14:58:49.957759",
+      "height_meters": 2.6399415163021076,
+      "tide_type": "high",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Tritiya",
+        "nakshatra": "Krittika",
+        "paksha": "Shukla",
+        "lunar_day": 3
+      },
+      "weather_info": {
+        "condition": "clear",
+        "temperature": "12.9\u00b0C",
+        "wind_speed": "12.4 m/s",
+        "humidity": "71%"
+      }
+    },
+    {
+      "timestamp": "2025-09-03T15:58:49.957759",
+      "height_meters": 2.6776422208272406,
+      "tide_type": "high",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Tritiya",
+        "nakshatra": "Krittika",
+        "paksha": "Shukla",
+        "lunar_day": 3
+      },
+      "weather_info": {
+        "condition": "clear",
+        "temperature": "10.4\u00b0C",
+        "wind_speed": "13.4 m/s",
+        "humidity": "53%"
+      }
+    },
+    {
+      "timestamp": "2025-09-03T16:58:49.957759",
+      "height_meters": 2.533590189066391,
+      "tide_type": "high",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Tritiya",
+        "nakshatra": "Krittika",
+        "paksha": "Shukla",
+        "lunar_day": 3
+      },
+      "weather_info": {
+        "condition": "cloudy",
+        "temperature": "10.0\u00b0C",
+        "wind_speed": "13.5 m/s",
+        "humidity": "79%"
+      }
+    },
+    {
+      "timestamp": "2025-09-03T17:58:49.957759",
+      "height_meters": 2.2439018445976506,
+      "tide_type": "high",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Tritiya",
+        "nakshatra": "Krittika",
+        "paksha": "Shukla",
+        "lunar_day": 3
+      },
+      "weather_info": {
+        "condition": "clear",
+        "temperature": "12.7\u00b0C",
+        "wind_speed": "13.7 m/s",
+        "humidity": "66%"
+      }
+    },
+    {
+      "timestamp": "2025-09-03T18:58:49.957759",
+      "height_meters": 1.8810401487284425,
+      "tide_type": "rising",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Tritiya",
+        "nakshatra": "Krittika",
+        "paksha": "Shukla",
+        "lunar_day": 3
+      },
+      "weather_info": {
+        "condition": "clear",
+        "temperature": "11.1\u00b0C",
+        "wind_speed": "4.6 m/s",
+        "humidity": "60%"
+      }
+    },
+    {
+      "timestamp": "2025-09-03T19:58:49.957759",
+      "height_meters": 1.5356880602792864,
+      "tide_type": "rising",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Tritiya",
+        "nakshatra": "Krittika",
+        "paksha": "Shukla",
+        "lunar_day": 3
+      },
+      "weather_info": {
+        "condition": "rainy",
+        "temperature": "7.7\u00b0C",
+        "wind_speed": "0.4 m/s",
+        "humidity": "59%"
+      }
+    },
+    {
+      "timestamp": "2025-09-03T20:58:49.957759",
+      "height_meters": 1.2940847952721615,
+      "tide_type": "rising",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Tritiya",
+        "nakshatra": "Krittika",
+        "paksha": "Shukla",
+        "lunar_day": 3
+      },
+      "weather_info": {
+        "condition": "cloudy",
+        "temperature": "9.8\u00b0C",
+        "wind_speed": "6.8 m/s",
+        "humidity": "76%"
+      }
+    },
+    {
+      "timestamp": "2025-09-03T21:58:49.957759",
+      "height_meters": 1.216489345696615,
+      "tide_type": "falling",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Tritiya",
+        "nakshatra": "Krittika",
+        "paksha": "Shukla",
+        "lunar_day": 3
+      },
+      "weather_info": {
+        "condition": "cloudy",
+        "temperature": "14.3\u00b0C",
+        "wind_speed": "6.2 m/s",
+        "humidity": "41%"
+      }
+    },
+    {
+      "timestamp": "2025-09-03T22:58:49.957759",
+      "height_meters": 1.3221498849830753,
+      "tide_type": "falling",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Tritiya",
+        "nakshatra": "Krittika",
+        "paksha": "Shukla",
+        "lunar_day": 3
+      },
+      "weather_info": {
+        "condition": "rainy",
+        "temperature": "14.9\u00b0C",
+        "wind_speed": "9.8 m/s",
+        "humidity": "66%"
+      }
+    },
+    {
+      "timestamp": "2025-09-03T23:58:49.957759",
+      "height_meters": 1.584528489661805,
+      "tide_type": "falling",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Tritiya",
+        "nakshatra": "Krittika",
+        "paksha": "Shukla",
+        "lunar_day": 3
+      },
+      "weather_info": {
+        "condition": "rainy",
+        "temperature": "15.6\u00b0C",
+        "wind_speed": "12.3 m/s",
+        "humidity": "71%"
+      }
+    },
+    {
+      "timestamp": "2025-09-04T00:58:49.957759",
+      "height_meters": 1.9083731262631936,
+      "tide_type": "rising",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Chaturthi",
+        "nakshatra": "Rohini",
+        "paksha": "Shukla",
+        "lunar_day": 4
+      },
+      "weather_info": {
+        "condition": "cloudy",
+        "temperature": "17.0\u00b0C",
+        "wind_speed": "9.8 m/s",
+        "humidity": "65%"
+      }
+    },
+    {
+      "timestamp": "2025-09-04T01:58:49.957759",
+      "height_meters": 2.159236621399554,
+      "tide_type": "high",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Chaturthi",
+        "nakshatra": "Rohini",
+        "paksha": "Shukla",
+        "lunar_day": 4
+      },
+      "weather_info": {
+        "condition": "rainy",
+        "temperature": "22.2\u00b0C",
+        "wind_speed": "0.2 m/s",
+        "humidity": "50%"
+      }
+    },
+    {
+      "timestamp": "2025-09-04T02:58:49.957759",
+      "height_meters": 2.2828008486215388,
+      "tide_type": "high",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Chaturthi",
+        "nakshatra": "Rohini",
+        "paksha": "Shukla",
+        "lunar_day": 4
+      },
+      "weather_info": {
+        "condition": "clear",
+        "temperature": "27.0\u00b0C",
+        "wind_speed": "10.7 m/s",
+        "humidity": "76%"
+      }
+    },
+    {
+      "timestamp": "2025-09-04T03:58:49.957759",
+      "height_meters": 2.248316728634782,
+      "tide_type": "high",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Chaturthi",
+        "nakshatra": "Rohini",
+        "paksha": "Shukla",
+        "lunar_day": 4
+      },
+      "weather_info": {
+        "condition": "rainy",
+        "temperature": "27.0\u00b0C",
+        "wind_speed": "2.8 m/s",
+        "humidity": "70%"
+      }
+    },
+    {
+      "timestamp": "2025-09-04T04:58:49.957759",
+      "height_meters": 2.064511693360697,
+      "tide_type": "high",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Chaturthi",
+        "nakshatra": "Rohini",
+        "paksha": "Shukla",
+        "lunar_day": 4
+      },
+      "weather_info": {
+        "condition": "clear",
+        "temperature": "30.9\u00b0C",
+        "wind_speed": "12.3 m/s",
+        "humidity": "79%"
+      }
+    },
+    {
+      "timestamp": "2025-09-04T05:58:49.957759",
+      "height_meters": 1.777381630419817,
+      "tide_type": "falling",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Chaturthi",
+        "nakshatra": "Rohini",
+        "paksha": "Shukla",
+        "lunar_day": 4
+      },
+      "weather_info": {
+        "condition": "cloudy",
+        "temperature": "31.3\u00b0C",
+        "wind_speed": "9.3 m/s",
+        "humidity": "41%"
+      }
+    },
+    {
+      "timestamp": "2025-09-04T06:58:49.957759",
+      "height_meters": 1.4586804722492606,
+      "tide_type": "rising",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Chaturthi",
+        "nakshatra": "Rohini",
+        "paksha": "Shukla",
+        "lunar_day": 4
+      },
+      "weather_info": {
+        "condition": "rainy",
+        "temperature": "32.6\u00b0C",
+        "wind_speed": "0.8 m/s",
+        "humidity": "46%"
+      }
+    },
+    {
+      "timestamp": "2025-09-04T07:58:49.957759",
+      "height_meters": 1.1879879615721431,
+      "tide_type": "rising",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Chaturthi",
+        "nakshatra": "Rohini",
+        "paksha": "Shukla",
+        "lunar_day": 4
+      },
+      "weather_info": {
+        "condition": "cloudy",
+        "temperature": "27.5\u00b0C",
+        "wind_speed": "12.1 m/s",
+        "humidity": "78%"
+      }
+    },
+    {
+      "timestamp": "2025-09-04T08:58:49.957759",
+      "height_meters": 1.0328373097703076,
+      "tide_type": "rising",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Chaturthi",
+        "nakshatra": "Rohini",
+        "paksha": "Shukla",
+        "lunar_day": 4
+      },
+      "weather_info": {
+        "condition": "cloudy",
+        "temperature": "31.5\u00b0C",
+        "wind_speed": "0.7 m/s",
+        "humidity": "56%"
+      }
+    },
+    {
+      "timestamp": "2025-09-04T09:58:49.957759",
+      "height_meters": 1.0318655019518275,
+      "tide_type": "falling",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Chaturthi",
+        "nakshatra": "Rohini",
+        "paksha": "Shukla",
+        "lunar_day": 4
+      },
+      "weather_info": {
+        "condition": "rainy",
+        "temperature": "29.5\u00b0C",
+        "wind_speed": "10.0 m/s",
+        "humidity": "69%"
+      }
+    },
+    {
+      "timestamp": "2025-09-04T10:58:49.957759",
+      "height_meters": 1.18519060650988,
+      "tide_type": "falling",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Chaturthi",
+        "nakshatra": "Rohini",
+        "paksha": "Shukla",
+        "lunar_day": 4
+      },
+      "weather_info": {
+        "condition": "clear",
+        "temperature": "23.3\u00b0C",
+        "wind_speed": "14.3 m/s",
+        "humidity": "42%"
+      }
+    },
+    {
+      "timestamp": "2025-09-04T11:58:49.957759",
+      "height_meters": 1.4544128956513085,
+      "tide_type": "falling",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Chaturthi",
+        "nakshatra": "Rohini",
+        "paksha": "Shukla",
+        "lunar_day": 4
+      },
+      "weather_info": {
+        "condition": "cloudy",
+        "temperature": "20.1\u00b0C",
+        "wind_speed": "12.6 m/s",
+        "humidity": "42%"
+      }
+    },
+    {
+      "timestamp": "2025-09-04T12:58:49.957759",
+      "height_meters": 1.7722319801274322,
+      "tide_type": "rising",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Chaturthi",
+        "nakshatra": "Rohini",
+        "paksha": "Shukla",
+        "lunar_day": 4
+      },
+      "weather_info": {
+        "condition": "rainy",
+        "temperature": "20.3\u00b0C",
+        "wind_speed": "11.9 m/s",
+        "humidity": "72%"
+      }
+    },
+    {
+      "timestamp": "2025-09-04T13:58:49.957759",
+      "height_meters": 2.059271351557129,
+      "tide_type": "high",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Chaturthi",
+        "nakshatra": "Rohini",
+        "paksha": "Shukla",
+        "lunar_day": 4
+      },
+      "weather_info": {
+        "condition": "cloudy",
+        "temperature": "17.0\u00b0C",
+        "wind_speed": "10.7 m/s",
+        "humidity": "77%"
+      }
+    },
+    {
+      "timestamp": "2025-09-04T14:58:49.957759",
+      "height_meters": 2.24390415377438,
+      "tide_type": "high",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Chaturthi",
+        "nakshatra": "Rohini",
+        "paksha": "Shukla",
+        "lunar_day": 4
+      },
+      "weather_info": {
+        "condition": "cloudy",
+        "temperature": "14.2\u00b0C",
+        "wind_speed": "0.9 m/s",
+        "humidity": "70%"
+      }
+    },
+    {
+      "timestamp": "2025-09-04T15:58:49.957759",
+      "height_meters": 2.2801280326503535,
+      "tide_type": "high",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Chaturthi",
+        "nakshatra": "Rohini",
+        "paksha": "Shukla",
+        "lunar_day": 4
+      },
+      "weather_info": {
+        "condition": "rainy",
+        "temperature": "11.3\u00b0C",
+        "wind_speed": "1.6 m/s",
+        "humidity": "42%"
+      }
+    },
+    {
+      "timestamp": "2025-09-04T16:58:49.957759",
+      "height_meters": 2.1590279791580755,
+      "tide_type": "high",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Chaturthi",
+        "nakshatra": "Rohini",
+        "paksha": "Shukla",
+        "lunar_day": 4
+      },
+      "weather_info": {
+        "condition": "clear",
+        "temperature": "11.9\u00b0C",
+        "wind_speed": "1.1 m/s",
+        "humidity": "61%"
+      }
+    },
+    {
+      "timestamp": "2025-09-04T17:58:49.957759",
+      "height_meters": 1.9109705933152965,
+      "tide_type": "falling",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Chaturthi",
+        "nakshatra": "Rohini",
+        "paksha": "Shukla",
+        "lunar_day": 4
+      },
+      "weather_info": {
+        "condition": "rainy",
+        "temperature": "9.0\u00b0C",
+        "wind_speed": "0.0 m/s",
+        "humidity": "62%"
+      }
+    },
+    {
+      "timestamp": "2025-09-04T18:58:49.957759",
+      "height_meters": 1.5979896410047092,
+      "tide_type": "rising",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Chaturthi",
+        "nakshatra": "Rohini",
+        "paksha": "Shukla",
+        "lunar_day": 4
+      },
+      "weather_info": {
+        "condition": "clear",
+        "temperature": "11.8\u00b0C",
+        "wind_speed": "6.0 m/s",
+        "humidity": "43%"
+      }
+    },
+    {
+      "timestamp": "2025-09-04T19:58:49.957759",
+      "height_meters": 1.29827218761383,
+      "tide_type": "rising",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Chaturthi",
+        "nakshatra": "Rohini",
+        "paksha": "Shukla",
+        "lunar_day": 4
+      },
+      "weather_info": {
+        "condition": "cloudy",
+        "temperature": "7.7\u00b0C",
+        "wind_speed": "5.0 m/s",
+        "humidity": "74%"
+      }
+    },
+    {
+      "timestamp": "2025-09-04T20:58:49.957759",
+      "height_meters": 1.0866252712166078,
+      "tide_type": "rising",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Chaturthi",
+        "nakshatra": "Rohini",
+        "paksha": "Shukla",
+        "lunar_day": 4
+      },
+      "weather_info": {
+        "condition": "cloudy",
+        "temperature": "12.8\u00b0C",
+        "wind_speed": "10.5 m/s",
+        "humidity": "79%"
+      }
+    },
+    {
+      "timestamp": "2025-09-04T21:58:49.957759",
+      "height_meters": 1.0158033577437255,
+      "tide_type": "falling",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Chaturthi",
+        "nakshatra": "Rohini",
+        "paksha": "Shukla",
+        "lunar_day": 4
+      },
+      "weather_info": {
+        "condition": "cloudy",
+        "temperature": "12.4\u00b0C",
+        "wind_speed": "8.5 m/s",
+        "humidity": "77%"
+      }
+    },
+    {
+      "timestamp": "2025-09-04T22:58:49.957759",
+      "height_meters": 1.10335774565413,
+      "tide_type": "falling",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Chaturthi",
+        "nakshatra": "Rohini",
+        "paksha": "Shukla",
+        "lunar_day": 4
+      },
+      "weather_info": {
+        "condition": "cloudy",
+        "temperature": "16.9\u00b0C",
+        "wind_speed": "14.0 m/s",
+        "humidity": "62%"
+      }
+    },
+    {
+      "timestamp": "2025-09-04T23:58:49.957759",
+      "height_meters": 1.3272863808724746,
+      "tide_type": "falling",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Chaturthi",
+        "nakshatra": "Rohini",
+        "paksha": "Shukla",
+        "lunar_day": 4
+      },
+      "weather_info": {
+        "condition": "clear",
+        "temperature": "15.2\u00b0C",
+        "wind_speed": "4.5 m/s",
+        "humidity": "61%"
+      }
+    },
+    {
+      "timestamp": "2025-09-05T00:58:49.957759",
+      "height_meters": 1.56139619421534,
+      "tide_type": "rising",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Panchami",
+        "nakshatra": "Mrigashira",
+        "paksha": "Shukla",
+        "lunar_day": 5
+      },
+      "weather_info": {
+        "condition": "cloudy",
+        "temperature": "19.3\u00b0C",
+        "wind_speed": "3.9 m/s",
+        "humidity": "69%"
+      }
+    },
+    {
+      "timestamp": "2025-09-05T01:58:49.957759",
+      "height_meters": 1.7753649727560752,
+      "tide_type": "rising",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Panchami",
+        "nakshatra": "Mrigashira",
+        "paksha": "Shukla",
+        "lunar_day": 5
+      },
+      "weather_info": {
+        "condition": "cloudy",
+        "temperature": "21.4\u00b0C",
+        "wind_speed": "6.3 m/s",
+        "humidity": "76%"
+      }
+    },
+    {
+      "timestamp": "2025-09-05T02:58:49.957759",
+      "height_meters": 1.8830456213232207,
+      "tide_type": "rising",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Panchami",
+        "nakshatra": "Mrigashira",
+        "paksha": "Shukla",
+        "lunar_day": 5
+      },
+      "weather_info": {
+        "condition": "clear",
+        "temperature": "22.9\u00b0C",
+        "wind_speed": "11.9 m/s",
+        "humidity": "47%"
+      }
+    },
+    {
+      "timestamp": "2025-09-05T03:58:49.957759",
+      "height_meters": 1.8576681413667133,
+      "tide_type": "falling",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Panchami",
+        "nakshatra": "Mrigashira",
+        "paksha": "Shukla",
+        "lunar_day": 5
+      },
+      "weather_info": {
+        "condition": "clear",
+        "temperature": "24.2\u00b0C",
+        "wind_speed": "7.6 m/s",
+        "humidity": "41%"
+      }
+    },
+    {
+      "timestamp": "2025-09-05T04:58:49.957759",
+      "height_meters": 1.7056786114192186,
+      "tide_type": "falling",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Panchami",
+        "nakshatra": "Mrigashira",
+        "paksha": "Shukla",
+        "lunar_day": 5
+      },
+      "weather_info": {
+        "condition": "rainy",
+        "temperature": "26.0\u00b0C",
+        "wind_speed": "4.8 m/s",
+        "humidity": "69%"
+      }
+    },
+    {
+      "timestamp": "2025-09-05T05:58:49.957759",
+      "height_meters": 1.4651026456908312,
+      "tide_type": "falling",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Panchami",
+        "nakshatra": "Mrigashira",
+        "paksha": "Shukla",
+        "lunar_day": 5
+      },
+      "weather_info": {
+        "condition": "clear",
+        "temperature": "32.2\u00b0C",
+        "wind_speed": "12.8 m/s",
+        "humidity": "63%"
+      }
+    },
+    {
+      "timestamp": "2025-09-05T06:58:49.957759",
+      "height_meters": 1.1960316592595743,
+      "tide_type": "rising",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Panchami",
+        "nakshatra": "Mrigashira",
+        "paksha": "Shukla",
+        "lunar_day": 5
+      },
+      "weather_info": {
+        "condition": "cloudy",
+        "temperature": "32.5\u00b0C",
+        "wind_speed": "0.7 m/s",
+        "humidity": "53%"
+      }
+    },
+    {
+      "timestamp": "2025-09-05T07:58:49.957759",
+      "height_meters": 0.965612273510124,
+      "tide_type": "low",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Panchami",
+        "nakshatra": "Mrigashira",
+        "paksha": "Shukla",
+        "lunar_day": 5
+      },
+      "weather_info": {
+        "condition": "cloudy",
+        "temperature": "32.2\u00b0C",
+        "wind_speed": "0.8 m/s",
+        "humidity": "50%"
+      }
+    },
+    {
+      "timestamp": "2025-09-05T08:58:49.957759",
+      "height_meters": 0.831288662624653,
+      "tide_type": "low",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Panchami",
+        "nakshatra": "Mrigashira",
+        "paksha": "Shukla",
+        "lunar_day": 5
+      },
+      "weather_info": {
+        "condition": "cloudy",
+        "temperature": "27.7\u00b0C",
+        "wind_speed": "1.5 m/s",
+        "humidity": "49%"
+      }
+    },
+    {
+      "timestamp": "2025-09-05T09:58:49.957759",
+      "height_meters": 0.8264803176394026,
+      "tide_type": "low",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Panchami",
+        "nakshatra": "Mrigashira",
+        "paksha": "Shukla",
+        "lunar_day": 5
+      },
+      "weather_info": {
+        "condition": "clear",
+        "temperature": "29.6\u00b0C",
+        "wind_speed": "8.4 m/s",
+        "humidity": "50%"
+      }
+    },
+    {
+      "timestamp": "2025-09-05T10:58:49.957759",
+      "height_meters": 0.9522664185142083,
+      "tide_type": "low",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Panchami",
+        "nakshatra": "Mrigashira",
+        "paksha": "Shukla",
+        "lunar_day": 5
+      },
+      "weather_info": {
+        "condition": "cloudy",
+        "temperature": "25.5\u00b0C",
+        "wind_speed": "5.2 m/s",
+        "humidity": "59%"
+      }
+    },
+    {
+      "timestamp": "2025-09-05T11:58:49.957759",
+      "height_meters": 1.1771461814316089,
+      "tide_type": "falling",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Panchami",
+        "nakshatra": "Mrigashira",
+        "paksha": "Shukla",
+        "lunar_day": 5
+      },
+      "weather_info": {
+        "condition": "clear",
+        "temperature": "21.5\u00b0C",
+        "wind_speed": "3.2 m/s",
+        "humidity": "68%"
+      }
+    },
+    {
+      "timestamp": "2025-09-05T12:58:49.957759",
+      "height_meters": 1.4449277019551914,
+      "tide_type": "rising",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Panchami",
+        "nakshatra": "Mrigashira",
+        "paksha": "Shukla",
+        "lunar_day": 5
+      },
+      "weather_info": {
+        "condition": "rainy",
+        "temperature": "20.3\u00b0C",
+        "wind_speed": "3.5 m/s",
+        "humidity": "53%"
+      }
+    },
+    {
+      "timestamp": "2025-09-05T13:58:49.957759",
+      "height_meters": 1.6887696510574293,
+      "tide_type": "rising",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Panchami",
+        "nakshatra": "Mrigashira",
+        "paksha": "Shukla",
+        "lunar_day": 5
+      },
+      "weather_info": {
+        "condition": "clear",
+        "temperature": "17.7\u00b0C",
+        "wind_speed": "6.0 m/s",
+        "humidity": "78%"
+      }
+    },
+    {
+      "timestamp": "2025-09-05T14:58:49.957759",
+      "height_meters": 1.8478667912466527,
+      "tide_type": "rising",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Panchami",
+        "nakshatra": "Mrigashira",
+        "paksha": "Shukla",
+        "lunar_day": 5
+      },
+      "weather_info": {
+        "condition": "rainy",
+        "temperature": "16.3\u00b0C",
+        "wind_speed": "0.6 m/s",
+        "humidity": "48%"
+      }
+    },
+    {
+      "timestamp": "2025-09-05T15:58:49.957759",
+      "height_meters": 1.8826138444734664,
+      "tide_type": "falling",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Panchami",
+        "nakshatra": "Mrigashira",
+        "paksha": "Shukla",
+        "lunar_day": 5
+      },
+      "weather_info": {
+        "condition": "clear",
+        "temperature": "11.2\u00b0C",
+        "wind_speed": "5.0 m/s",
+        "humidity": "79%"
+      }
+    },
+    {
+      "timestamp": "2025-09-05T16:58:49.957759",
+      "height_meters": 1.7844657692497596,
+      "tide_type": "falling",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Panchami",
+        "nakshatra": "Mrigashira",
+        "paksha": "Shukla",
+        "lunar_day": 5
+      },
+      "weather_info": {
+        "condition": "cloudy",
+        "temperature": "11.1\u00b0C",
+        "wind_speed": "0.6 m/s",
+        "humidity": "43%"
+      }
+    },
+    {
+      "timestamp": "2025-09-05T17:58:49.957759",
+      "height_meters": 1.5780393420329424,
+      "tide_type": "falling",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Panchami",
+        "nakshatra": "Mrigashira",
+        "paksha": "Shukla",
+        "lunar_day": 5
+      },
+      "weather_info": {
+        "condition": "rainy",
+        "temperature": "9.4\u00b0C",
+        "wind_speed": "9.0 m/s",
+        "humidity": "68%"
+      }
+    },
+    {
+      "timestamp": "2025-09-05T18:58:49.957759",
+      "height_meters": 1.314939133280976,
+      "tide_type": "rising",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Panchami",
+        "nakshatra": "Mrigashira",
+        "paksha": "Shukla",
+        "lunar_day": 5
+      },
+      "weather_info": {
+        "condition": "rainy",
+        "temperature": "10.8\u00b0C",
+        "wind_speed": "12.6 m/s",
+        "humidity": "56%"
+      }
+    },
+    {
+      "timestamp": "2025-09-05T19:58:49.957759",
+      "height_meters": 1.0608563149483734,
+      "tide_type": "rising",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Panchami",
+        "nakshatra": "Mrigashira",
+        "paksha": "Shukla",
+        "lunar_day": 5
+      },
+      "weather_info": {
+        "condition": "rainy",
+        "temperature": "12.4\u00b0C",
+        "wind_speed": "7.3 m/s",
+        "humidity": "55%"
+      }
+    },
+    {
+      "timestamp": "2025-09-05T20:58:49.957759",
+      "height_meters": 0.8791657471610542,
+      "tide_type": "low",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Panchami",
+        "nakshatra": "Mrigashira",
+        "paksha": "Shukla",
+        "lunar_day": 5
+      },
+      "weather_info": {
+        "condition": "rainy",
+        "temperature": "10.9\u00b0C",
+        "wind_speed": "4.9 m/s",
+        "humidity": "58%"
+      }
+    },
+    {
+      "timestamp": "2025-09-05T21:58:49.957759",
+      "height_meters": 0.8151173697908359,
+      "tide_type": "low",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Panchami",
+        "nakshatra": "Mrigashira",
+        "paksha": "Shukla",
+        "lunar_day": 5
+      },
+      "weather_info": {
+        "condition": "cloudy",
+        "temperature": "13.0\u00b0C",
+        "wind_speed": "5.9 m/s",
+        "humidity": "80%"
+      }
+    },
+    {
+      "timestamp": "2025-09-05T22:58:49.957759",
+      "height_meters": 0.8845656063251842,
+      "tide_type": "low",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Panchami",
+        "nakshatra": "Mrigashira",
+        "paksha": "Shukla",
+        "lunar_day": 5
+      },
+      "weather_info": {
+        "condition": "clear",
+        "temperature": "17.1\u00b0C",
+        "wind_speed": "0.5 m/s",
+        "humidity": "65%"
+      }
+    },
+    {
+      "timestamp": "2025-09-05T23:58:49.957759",
+      "height_meters": 1.0700442720831442,
+      "tide_type": "falling",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Panchami",
+        "nakshatra": "Mrigashira",
+        "paksha": "Shukla",
+        "lunar_day": 5
+      },
+      "weather_info": {
+        "condition": "rainy",
+        "temperature": "15.8\u00b0C",
+        "wind_speed": "3.5 m/s",
+        "humidity": "69%"
+      }
+    },
+    {
+      "timestamp": "2025-09-06T00:58:49.957759",
+      "height_meters": 2.2553500583110466,
+      "tide_type": "high",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Shashthi",
+        "nakshatra": "Ardra",
+        "paksha": "Shukla",
+        "lunar_day": 6
+      },
+      "weather_info": {
+        "condition": "cloudy",
+        "temperature": "20.1\u00b0C",
+        "wind_speed": "6.3 m/s",
+        "humidity": "45%"
+      }
+    },
+    {
+      "timestamp": "2025-09-06T01:58:49.957759",
+      "height_meters": 2.543108270043033,
+      "tide_type": "high",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Shashthi",
+        "nakshatra": "Ardra",
+        "paksha": "Shukla",
+        "lunar_day": 6
+      },
+      "weather_info": {
+        "condition": "rainy",
+        "temperature": "21.2\u00b0C",
+        "wind_speed": "2.9 m/s",
+        "humidity": "52%"
+      }
+    },
+    {
+      "timestamp": "2025-09-06T02:58:49.957759",
+      "height_meters": 2.6825560759198566,
+      "tide_type": "high",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Shashthi",
+        "nakshatra": "Ardra",
+        "paksha": "Shukla",
+        "lunar_day": 6
+      },
+      "weather_info": {
+        "condition": "rainy",
+        "temperature": "22.6\u00b0C",
+        "wind_speed": "6.8 m/s",
+        "humidity": "51%"
+      }
+    },
+    {
+      "timestamp": "2025-09-06T03:58:49.957759",
+      "height_meters": 2.6389653159028503,
+      "tide_type": "high",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Shashthi",
+        "nakshatra": "Ardra",
+        "paksha": "Shukla",
+        "lunar_day": 6
+      },
+      "weather_info": {
+        "condition": "cloudy",
+        "temperature": "28.1\u00b0C",
+        "wind_speed": "6.6 m/s",
+        "humidity": "75%"
+      }
+    },
+    {
+      "timestamp": "2025-09-06T04:58:49.957759",
+      "height_meters": 2.4233447753021746,
+      "tide_type": "high",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Shashthi",
+        "nakshatra": "Ardra",
+        "paksha": "Shukla",
+        "lunar_day": 6
+      },
+      "weather_info": {
+        "condition": "rainy",
+        "temperature": "30.6\u00b0C",
+        "wind_speed": "7.1 m/s",
+        "humidity": "56%"
+      }
+    },
+    {
+      "timestamp": "2025-09-06T05:58:49.957759",
+      "height_meters": 2.0896606151488024,
+      "tide_type": "high",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Shashthi",
+        "nakshatra": "Ardra",
+        "paksha": "Shukla",
+        "lunar_day": 6
+      },
+      "weather_info": {
+        "condition": "clear",
+        "temperature": "27.1\u00b0C",
+        "wind_speed": "0.6 m/s",
+        "humidity": "51%"
+      }
+    },
+    {
+      "timestamp": "2025-09-06T06:58:49.957759",
+      "height_meters": 1.7213292852389468,
+      "tide_type": "rising",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Shashthi",
+        "nakshatra": "Ardra",
+        "paksha": "Shukla",
+        "lunar_day": 6
+      },
+      "weather_info": {
+        "condition": "rainy",
+        "temperature": "27.9\u00b0C",
+        "wind_speed": "7.8 m/s",
+        "humidity": "43%"
+      }
+    },
+    {
+      "timestamp": "2025-09-06T07:58:49.957759",
+      "height_meters": 1.410363649634162,
+      "tide_type": "rising",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Shashthi",
+        "nakshatra": "Ardra",
+        "paksha": "Shukla",
+        "lunar_day": 6
+      },
+      "weather_info": {
+        "condition": "rainy",
+        "temperature": "28.9\u00b0C",
+        "wind_speed": "4.0 m/s",
+        "humidity": "67%"
+      }
+    },
+    {
+      "timestamp": "2025-09-06T08:58:49.957759",
+      "height_meters": 1.2343859569159623,
+      "tide_type": "rising",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Shashthi",
+        "nakshatra": "Ardra",
+        "paksha": "Shukla",
+        "lunar_day": 6
+      },
+      "weather_info": {
+        "condition": "clear",
+        "temperature": "28.9\u00b0C",
+        "wind_speed": "7.8 m/s",
+        "humidity": "61%"
+      }
+    },
+    {
+      "timestamp": "2025-09-06T09:58:49.957759",
+      "height_meters": 1.2372506862642525,
+      "tide_type": "falling",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Shashthi",
+        "nakshatra": "Ardra",
+        "paksha": "Shukla",
+        "lunar_day": 6
+      },
+      "weather_info": {
+        "condition": "clear",
+        "temperature": "26.3\u00b0C",
+        "wind_speed": "13.8 m/s",
+        "humidity": "44%"
+      }
+    },
+    {
+      "timestamp": "2025-09-06T10:58:49.957759",
+      "height_meters": 1.4181147945055517,
+      "tide_type": "falling",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Shashthi",
+        "nakshatra": "Ardra",
+        "paksha": "Shukla",
+        "lunar_day": 6
+      },
+      "weather_info": {
+        "condition": "rainy",
+        "temperature": "22.1\u00b0C",
+        "wind_speed": "12.4 m/s",
+        "humidity": "77%"
+      }
+    },
+    {
+      "timestamp": "2025-09-06T11:58:49.957759",
+      "height_meters": 1.7316796098710079,
+      "tide_type": "falling",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Shashthi",
+        "nakshatra": "Ardra",
+        "paksha": "Shukla",
+        "lunar_day": 6
+      },
+      "weather_info": {
+        "condition": "cloudy",
+        "temperature": "24.8\u00b0C",
+        "wind_speed": "8.8 m/s",
+        "humidity": "63%"
+      }
+    },
+    {
+      "timestamp": "2025-09-06T12:58:49.957759",
+      "height_meters": 2.099536258299673,
+      "tide_type": "high",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Shashthi",
+        "nakshatra": "Ardra",
+        "paksha": "Shukla",
+        "lunar_day": 6
+      },
+      "weather_info": {
+        "condition": "cloudy",
+        "temperature": "22.8\u00b0C",
+        "wind_speed": "8.9 m/s",
+        "humidity": "61%"
+      }
+    },
+    {
+      "timestamp": "2025-09-06T13:58:49.957759",
+      "height_meters": 2.4297730520568286,
+      "tide_type": "high",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Shashthi",
+        "nakshatra": "Ardra",
+        "paksha": "Shukla",
+        "lunar_day": 6
+      },
+      "weather_info": {
+        "condition": "clear",
+        "temperature": "16.8\u00b0C",
+        "wind_speed": "4.4 m/s",
+        "humidity": "44%"
+      }
+    },
+    {
+      "timestamp": "2025-09-06T14:58:49.957759",
+      "height_meters": 2.6399415163021076,
+      "tide_type": "high",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Shashthi",
+        "nakshatra": "Ardra",
+        "paksha": "Shukla",
+        "lunar_day": 6
+      },
+      "weather_info": {
+        "condition": "rainy",
+        "temperature": "16.3\u00b0C",
+        "wind_speed": "6.8 m/s",
+        "humidity": "73%"
+      }
+    },
+    {
+      "timestamp": "2025-09-06T15:58:49.957759",
+      "height_meters": 2.6776422208272406,
+      "tide_type": "high",
+      "confidence": 0.85,
+      "hindu_factors": {
+        "tithi": "Shashthi",
+        "nakshatra": "Ardra",
+        "paksha": "Shukla",
+        "lunar_day": 6
+      },
+      "weather_info": {
+        "condition": "cloudy",
+        "temperature": "10.5\u00b0C",
+        "wind_speed": "4.8 m/s",
+        "humidity": "72%"
+      }
+    }
+  ],
+  "hazards": {
+    "high_risk_count": 13,
+    "moderate_risk_count": 55,
+    "high_risk_periods": [
+      {
+        "timestamp": 

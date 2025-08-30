@@ -1,0 +1,65 @@
+{
+  "channels": {
+    "email": {
+      "name": "Email Alerts",
+      "enabled": true,
+      "priority_levels": ["ORANGE", "RED"],
+      "config": {
+        "smtp_server": "smtp.gmail.com",
+        "smtp_port": 587,
+        "username": "your_email@gmail.com",
+        "password": "your_app_password",
+        "from_email": "alerts@yourdomain.com",
+        "recipients": ["admin@yourdomain.com", "emergency@yourdomain.com"]
+      }
+    },
+    "sms": {
+      "name": "SMS Alerts",
+      "enabled": true,
+      "priority_levels": ["RED"],
+      "config": {
+        "account_sid": "your_twilio_account_sid",
+        "auth_token": "your_twilio_auth_token",
+        "from_number": "+1234567890",
+        "recipients": ["+15551234567", "+15551234568"]
+      }
+    },
+    "ivr": {
+      "name": "IVR Voice Calls",
+      "enabled": true,
+      "priority_levels": ["RED"],
+      "config": {
+        "account_sid": "your_twilio_account_sid",
+        "auth_token": "your_twilio_auth_token",
+        "from_number": "+1234567890",
+        "recipients": ["+15551234567"],
+        "webhook_url": "https://your-domain.com/webhook",
+        "voice": "alice",
+        "language": "en-US"
+      }
+    },
+    "webhook": {
+      "name": "Webhook Integration",
+      "enabled": false,
+      "priority_levels": ["YELLOW", "ORANGE", "RED"],
+      "config": {
+        "url": "https://your-webhook-endpoint.com/alerts",
+        "headers": {
+          "Authorization": "Bearer your_token",
+          "Content-Type": "application/json"
+        },
+        "timeout": 30
+      }
+    },
+    "push": {
+      "name": "Push Notifications",
+      "enabled": false,
+      "priority_levels": ["YELLOW", "ORANGE", "RED"],
+      "config": {
+        "fcm_server_key": "your_firebase_server_key",
+        "topic": "coastal_hazards",
+        "device_tokens": []
+      }
+    }
+  }
+}
