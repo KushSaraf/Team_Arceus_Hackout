@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CoastalGuard AI - Coastal Hazard Detection & Response System</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Navigation -->
+        <nav class="navbar">
+            <div class="nav-brand">
+                <i class="fas fa-shield-alt"></i>
+                <span>CoastalGuard AI</span>
+            </div>
+            <div class="nav-links">
+                <button class="nav-link active" data-tab="dashboard">
+                    <i class="fas fa-chart-line"></i>
+                    Dashboard
+                </button>
+                <button class="nav-link" data-tab="reporting">
+                    <i class="fas fa-flag"></i>
+                    Report Hazard
+                </button>
+                <button class="nav-link" data-tab="alerts">
+                    <i class="fas fa-bell"></i>
+                    Alerts
+                </button>
+                <button class="nav-link" data-tab="tides">
+                    <i class="fas fa-water"></i>
+                    Tides
+                </button>
+            </div>
+            <div class="nav-status">
+                <div class="status-indicator online"></div>
+                <span>System Online</span>
+            </div>
+        </nav>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Dashboard Tab -->
+            <div class="tab-content active" id="dashboard">
+                <div class="dashboard-header">
+                    <h1>Coastal Hazard Detection & Response Dashboard</h1>
+                    <p>Real-time monitoring and AI-powered hazard detection for coastal safety and environmental protection</p>
+                </div>
+
+                <!-- Emergency Status Banner -->
+                <div class="emergency-banner" id="emergency-banner" style="display: none;">
+                    <div class="emergency-content">
+                        <i class="fas fa-exclamation-triangle"></i>
+                        <div class="emergency-text">
+                            <h3>Emergency Alert Active</h3>
+                            <p id="emergency-message">High-priority hazard detected in your area</p>
+                        </div>
+                        <button class="emergency-action" onclick="viewEmergencyDetails()">
+                            View Details
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Stats Cards -->
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="fas fa-shield-check"></i>
+                        </div>
+                        <div class="stat-content">
+                            <h3 id="total-scans">0</h3>
+                            <p>Total Reports</p>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon warning">
+                            <i class="fas fa-exclamation-triangle"></i>
+                        </div>
+                        <div class="stat-content">
+                            <h3 id="active-alerts">0</h3>
+                            <p>Active Alerts</p>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon success">
+                            <i class="fas fa-check-circle"></i>
+                        </div>
+                        <div class="stat-content">
+                            <h3 id="detection-accuracy">98.5%</h3>
+                            <p>Detection Accuracy</p>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon info">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="stat-content">
+                            <h3 id="response-time">2.3s</h3>
+                            <p>Avg Response Time</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Hazard Types Grid -->
+                <div class="hazard-types">
+                    <h2>Coastal Hazard Detection Models</h2>
+                    <div class="hazard-grid">
+                        <div class="hazard-card" data-hazard="oil_spill">
+                            <div class="hazard-icon">
+                                <i class="fas fa-oil-can"></i>
+                            </div>
+                            <h3>Oil Spill Detection</h3>
+                            <p>AI-powered detection of oil spills and hydrocarbon contamination</p>
+                            <div class="model-status online">Model Active</div>
+                        </div>
+                        <div class="hazard-card" data-hazard="algal_bloom">
+                            <div class="hazard-icon">
+                                <i class="fas fa-leaf"></i>
+                            </div>
+                            <h3>Harmful Algal Bloom</h3>
+                            <p>Environmental monitoring for harmful algal blooms and water quality</p>
+                            <div class="model-status online">Model Active</div>
+                        </div>
+                        <div class="hazard-card" data-hazard="coastal_erosion">
+                            <div class="hazard-icon">
+                                <i class="fas fa-mountain"></i>
+                            </div>
+                            <h3>Coastal Erosion</h3>
+                            <p>Predictive modeling for coastal erosion and shoreline changes</p>
+                            <div class="model-status online">Model Active</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Recent Activity -->
+                <div class="recent-activity">
+                    <h2>Recent Citizen Reports</h2>
+                    <div class="activity-list" id="activity-list">
+                        <!-- Activity items will be populated by JavaScript -->
+                    </div>
+                </div>
+            </div>
+
+            <!-- Citizen Reporting Tab -->
+            <div class="tab-content" id="reporting">
+                <div class="reporting-header">
+                    <h1>Citizen Hazard Reporting</h1>
+                    <p>Report coastal hazards and environmental concerns to help protect our coastal communities</p>
+                </div>
+
+                <div class="reporting-container">
+                    <!-- Quick Report Section -->
+                    <div class="quick-report-section">
+                        <h3>Quick Report</h3>
+                        <div class="quick-report-grid">
+                            <button class="quick-report-btn" onclick="quickReport('oil_spill')">
+                                <i class="fas fa-oil-can"></i>
+                                <span>Oil Spill</span>
+                            </button>
+                            <button class="quick-report-btn" onclick="quickReport('algal_bloom')">
+                                <i class="fas fa-leaf"></i>
+                                <span>Algal Bloom</span>
+                            </button>
+                            <button class="quick-report-btn" onclick="quickReport('coastal_erosion')">
+                                <i class="fas fa-mountain"></i>
+                                <span>Coastal Erosion</span>
+                            </button>
+                            <button class="quick-report-btn" onclick="quickReport('other')">
+                                <i class="fas fa-exclamation"></i>
+                                <span>Other Hazard</span>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Comprehensive Report Form -->
+                    <div class="comprehensive-report">
+                        <h3>Detailed Hazard Report</h3>
+                        <form id="hazard-report-form" class="report-form">
+                            <!-- Hazard Information -->
+                            <div class="form-section">
+                                <h4>Hazard Information</h4>
+                                <div class="form-row">
+                                    <div class="form-group">
+                                        <label for="hazard-type">Hazard Type *</label>
+                                        <select id="hazard-type" required>
+                                            <option value="">Select hazard type</option>
+                                            <option value="oil_spill">Oil Spill / Hydrocarbon Contamination</option>
+                                            <option value="algal_bloom">Harmful Algal Bloom</option>
+                                            <option value="coastal_erosion">Coastal Erosion</option>
+                                            <option value="marine_debris">Marine Debris</option>
+                                            <option value="water_pollution">Water Pollution</option>
+                                            <option value="coastal_flooding">Coastal Flooding</option>
+                                            <option value="other">Other</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="hazard-severity">Severity Level *</label>
+                                        <select id="hazard-severity" required>
+                                            <option value="">Select severity</option>
+                                            <option value="low">Low - Minor concern</option>
+                                            <option value="medium">Medium - Moderate concern</option>
+                                            <option value="high">High - Significant concern</option>
+                                            <option value="critical">Critical - Emergency situation</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="hazard-description">Detailed Description *</label>
+                                    <textarea id="hazard-description" rows="4" placeholder="Describe what you observed, including size, color, behavior, and any relevant details..." required></textarea>
+                                </div>
+                            </div>
+
+                            <!-- Location Information -->
+                            <div class="form-section">
+                                <h4>Location Information</h4>
+                                <div class="form-row">
+                                    <div class="form-group">
+                                        <label for="latitude">Latitude *</label>
+                                        <input type="number" id="latitude" step="0.000001" placeholder="37.7749" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="longitude">Longitude *</label>
+                                        <input type="number" id="longitude" step="0.000001" placeholder="-122.4194" required>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="location-description">Location Description</label>
+                                    <input type="text" id="location-description" placeholder="e.g., Near Golden Gate Bridge, San Francisco Bay">
+                                </div>
+                                <button type="button" class="location-btn" onclick="getCurrentLocation()">
+                                    <i class="fas fa-location-arrow"></i>
+                                    Use My Location
+                                </button>
+                            </div>
+
+                            <!-- Environmental Data -->
+                            <div class="form-section">
+                                <h4>Environmental Conditions (Optional)</h4>
+                                <div class="form-row">
+                                    <div class="form-group">
+                                        <label for="water-temp">Water Temperature (°C)</label>
+                                        <input type="number" id="water-temp" step="0.1" placeholder="18.5">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="salinity">Salinity (PSU)</label>
+                                        <input type="number" id="salinity" step="0.1" placeholder="35.0">
+                                    </div>
+                                </div>
+                                <div class="form-row">
+                                    <div class="form-group">
+                                        <label for="wind-speed">Wind Speed (m/s)</label>
+                                        <input type="number" id="wind-speed" step="0.1" placeholder="12.0">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="weather-conditions">Weather Conditions</label>
+                                        <select id="weather-conditions">
+                                            <option value="">Select weather</option>
+                                            <option value="sunny">Sunny</option>
+                                            <option value="cloudy">Cloudy</option>
+                                            <option value="rainy">Rainy</option>
+                                            <option value="foggy">Foggy</option>
+                                            <option value="stormy">Stormy</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Media Upload -->
+                            <div class="form-section">
+                                <h4>Media Evidence</h4>
+                                <div class="media-upload-area">
+                                    <div class="upload-area" id="upload-area">
+                                        <div class="upload-content">
+                                            <i class="fas fa-cloud-upload-alt"></i>
+                                            <p>Upload photos or videos of the hazard</p>
+                                            <p class="upload-hint">Drag & drop files or click to browse</p>
+                                            <input type="file" id="media-input" accept="image/*,video/*" multiple hidden>
+                                            <button type="button" class="upload-btn" onclick="document.getElementById('media-input').click()">
+                                                Choose Files
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="media-preview" id="media-preview" style="display: none;">
+                                        <div class="preview-grid" id="preview-grid">
+                                            <!-- Media previews will be added here -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Contact Information -->
+                            <div class="form-section">
+                                <h4>Contact Information (Optional)</h4>
+                                <div class="form-row">
+                                    <div class="form-group">
+                                        <label for="reporter-name">Your Name</label>
+                                        <input type="text" id="reporter-name" placeholder="Your name">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="reporter-email">Email</label>
+                                        <input type="email" id="reporter-email" placeholder="your.email@example.com">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="reporter-phone">Phone Number</label>
+                                    <input type="tel" id="reporter-phone" placeholder="+1 (555) 123-4567">
+                                </div>
+                                <div class="form-group">
+                                    <label for="contact-preference">Contact Preference</label>
+                                    <select id="contact-preference">
+                                        <option value="email">Email</option>
+                                        <option value="phone">Phone</option>
+                                        <option value="none">No contact needed</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <!-- Submit Section -->
+                            <div class="form-section submit-section">
+                                <div class="form-actions">
+                                    <button type="button" class="btn-secondary" onclick="clearForm()">
+                                        <i class="fas fa-times"></i>
+                                        Clear Form
+                                    </button>
+                                    <button type="submit" class="btn-primary">
+                                        <i class="fas fa-paper-plane"></i>
+                                        Submit Report
+                                    </button>
+                                </div>
+                                <div class="form-disclaimer">
+                                    <p><i class="fas fa-info-circle"></i> Your report will be reviewed by coastal safety experts and may trigger automated alerts if necessary.</p>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <!-- Report Status -->
+                <div class="report-status" id="report-status" style="display: none;">
+                    <h3>Report Status</h3>
+                    <div class="status-content" id="status-content">
+                        <!-- Status will be populated by JavaScript -->
+                    </div>
+                </div>
+            </div>
+
+            <!-- Alerts Tab -->
+            <div class="tab-content" id="alerts">
+                <div class="alerts-header">
+                    <h1>Alert Management</h1>
+                    <p>Monitor and manage hazard alerts across multiple channels</p>
+                </div>
+
+                <div class="alerts-container">
+                    <!-- Alert Channels -->
+                    <div class="alert-channels">
+                        <h3>Alert Channels</h3>
+                        <div class="channel-grid">
+                            <div class="channel-card">
+                                <div class="channel-icon">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <h4>Email Alerts</h4>
+                                <div class="channel-status online">Active</div>
+                            </div>
+                            <div class="channel-card">
+                                <div class="channel-icon">
+                                    <i class="fas fa-sms"></i>
+                                </div>
+                                <h4>SMS Alerts</h4>
+                                <div class="channel-status online">Active</div>
+                            </div>
+                            <div class="channel-card">
+                                <div class="channel-icon">
+                                    <i class="fas fa-phone"></i>
+                                </div>
+                                <h4>IVR Calls</h4>
+                                <div class="channel-status online">Active</div>
+                            </div>
+                            <div class="channel-card">
+                                <div class="channel-icon">
+                                    <i class="fas fa-globe"></i>
+                                </div>
+                                <h4>Webhook</h4>
+                                <div class="channel-status online">Active</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Active Alerts -->
+                    <div class="active-alerts">
+                        <h3>Active Alerts</h3>
+                        <div class="alerts-list" id="alerts-list">
+                            <!-- Alerts will be populated by JavaScript -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tides Tab -->
+            <div class="tab-content" id="tides">
+                <div class="tides-header">
+                    <h1>Tide Monitoring</h1>
+                    <p>Real-time tide data and forecasting for coastal safety</p>
+                </div>
+
+                <div class="tides-container">
+                    <!-- Current Tide Status -->
+                    <div class="tide-status">
+                        <h3>Current Tide Status</h3>
+                        <div class="tide-card">
+                            <div class="tide-info">
+                                <div class="tide-level">
+                                    <span class="level-value" id="current-level">--</span>
+                                    <span class="level-unit">m</span>
+                                </div>
+                                <div class="tide-phase" id="tide-phase">Loading...</div>
+                            </div>
+                            <div class="tide-location">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span id="tide-location">San Francisco Bay</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Tide Forecast -->
+                    <div class="tide-forecast">
+                        <h3>24-Hour Forecast</h3>
+                        <div class="forecast-chart" id="forecast-chart">
+                            <!-- Chart will be populated by JavaScript -->
+                        </div>
+                    </div>
+
+                    <!-- Risk Assessment -->
+                    <div class="risk-assessment">
+                        <h3>Risk Assessment</h3>
+                        <div class="risk-cards">
+                            <div class="risk-card low">
+                                <div class="risk-icon">
+                                    <i class="fas fa-shield-check"></i>
+                                </div>
+                                <h4>Flooding Risk</h4>
+                                <div class="risk-level">Low</div>
+                            </div>
+                            <div class="risk-card medium">
+                                <div class="risk-icon">
+                                    <i class="fas fa-exclamation-triangle"></i>
+                                </div>
+                                <h4>Erosion Risk</h4>
+                                <div class="risk-level">Medium</div>
+                            </div>
+                            <div class="risk-card low">
+                                <div class="risk-icon">
+                                    <i class="fas fa-shield-check"></i>
+                                </div>
+                                <h4>Navigation Risk</h4>
+                                <div class="risk-level">Low</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!-- Loading Overlay -->
+    <div class="loading-overlay" id="loading-overlay">
+        <div class="loading-spinner">
+            <i class="fas fa-spinner fa-spin"></i>
+            <p>Processing...</p>
+        </div>
+    </div>
+
+    <!-- Notification Toast -->
+    <div class="toast-container" id="toast-container"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
